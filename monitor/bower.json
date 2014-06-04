@@ -1,0 +1,27 @@
+{
+  "name": "Chodera Lab Status Monitor (Front-End)",
+  "author": "Jan-Hendrik Prinz",
+  "version": "0.0.1",
+  "directory" : "components",
+  "dependencies": {
+    "font-awesome" : "latest",
+    "jQuery" : "latest",
+    "d3" : "latest",
+    "knockout" : "latest",
+    "bootstrap" : "latest",
+    "socket.io" : "latest",
+    "socket.io-client" : "latest",
+    "underscore" : "latest",
+    "pagerjs" : "latest",
+    "backbone" : "latest",
+    "react" : "latest",
+    "processing" : "latest",
+    "knockout-bootstrap" : "latest",
+    "durandal" : "latest",
+    "requirejs" : "latest",
+    "knockout-amd-helpers" : "latest",
+    "jquery.sparkline" : "latest",
+    "morrisjs" : "latest",
+    "easypie" : "latest"
+  }
+}

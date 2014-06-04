@@ -1,0 +1,30 @@
+{
+  "name" : "socket-nodejs-example",
+  "version" : "0.0.1",
+  "main" : "./monitor.js",
+  "private" : true,
+  "author" : {
+    "name" : "Jan-Hendrik Prinz",
+    "email" : "jan.prinz@gmx.de"
+  },
+  "keywords" : [ ],
+  "licenses" : {
+    "type" : "none"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/YOUR_LOGIN/monitor.git"
+  },
+  "bugs" : {
+    "url" : "http://github.com/YOUR_LOGIN/monitor/issues"
+  },
+  "dependencies" : {
+    "express" : "4.0.0",
+    "github" : "0.1.16",
+    "octonode" : "0.6.2",
+    "socket.io" : "0.9.16",
+    "xpath" : "0.0.6",
+    "xmldom" : "0.1.19",
+    "moment" : "2.6.0"
+  }
+}
