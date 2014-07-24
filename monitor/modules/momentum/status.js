@@ -1,6 +1,6 @@
 function MomentumData() {
     var self = this;
-    self.uri = 'http://localhost:9000/status?callback=?';
+    self.uri = 'http://172.30.60.25:8000/status?callback=?';
     self.data = {};
     self.username = "Jan";
     self.password = "password";
@@ -40,6 +40,8 @@ function MomentumData() {
 
             self.data = data;                            
             self.list = [];
+            
+            
             
             for (var key in self.data.devices) {
                 val = 0.0;

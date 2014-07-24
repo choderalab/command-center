@@ -13,6 +13,13 @@ from flask_restful import Api, Resource, reqparse
 from flask_httpauth import HTTPBasicAuth 
 from functools import wraps
 
+import os
+from threading import Thread, Event
+from lxml import etree, objectify
+from dateutil.parser import parse
+import datetime
+
+
 def jsonp(func):
     """Wraps JSONified output for JSONP requests."""
     @wraps(func)
@@ -27,22 +34,16 @@ def jsonp(func):
             return func(*args, **kwargs)
     return decorated_function
 
-import os
-from threading import Thread, Event
-
-from lxml import etree, objectify
-
-from dateutil.parser import parse
-import datetime
 
 if os.name == 'posix':
     path_to_folder = 'data/audit/'
 elif os.name == 'nt':
     path_to_folder = 'c:/Users/Public/Documents/Thermo Scientific/Momentum/Audit/'
 
+
 file_list = ['AuditLog.9.xml', 'AuditLog.8.xml', 'AuditLog.7.xml', 'AuditLog.6.xml', 'AuditLog.5.xml', 'AuditLog.4.xml', 'AuditLog.3.xml', 'AuditLog.2.xml', 'AuditLog.1.xml', 'AuditLog.xml']
 
-event_list = []
+
 worklist_event_list={}
 device_state = {}
 system_state = [ { 'state' : 'offline', 'time' : datetime.datetime.fromtimestamp(0) } ]

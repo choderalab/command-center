@@ -220,5 +220,5 @@ if __name__ == '__main__':
     stopFlag = Event()
     thread = AuditThread(stopFlag)
     thread.start()     
-    app.run(debug = False, port=9000)
+    app.run(debug = False, port=8000, host='0.0.0.0')
 

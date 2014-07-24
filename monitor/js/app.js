@@ -9,8 +9,7 @@ $(function() {
     ko.applyBindings(clusterData, $('cluster_table')[0]);
     
     momentumData = new MomentumData();
-
-
+    
     var socket = io.connect("http://localhost:3000");
 
     socket.on('server:online', function() {

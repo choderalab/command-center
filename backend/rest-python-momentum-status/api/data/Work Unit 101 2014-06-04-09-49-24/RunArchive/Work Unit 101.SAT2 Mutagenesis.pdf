@@ -1,0 +1,1650 @@
+%PDF-1.4
+%”ÙÃ·
+% PDFsharp Version 1.32.2608.0 (verbose mode)
+% Creation date: 6/4/2014 9:49:24 AM             
+% Creation time: 0.018 seconds                   
+% File size: 57778 bytes                         
+% Pages: 19                                      
+% Objects: 44                                    
+%--------------------------------------------------------------------------------------------------
+1 0 obj   % PdfSharp.Pdf.PdfDocumentInformation
+<<
+  /CreationDate (D:20140604094924-04'00')
+  /Creator (PDFsharp 1.32.2608-g \(www.pdfsharp.net\))
+  /Producer (PDFsharp 1.32.2608-g \(www.pdfsharp.net\))
+  /Title (Momentum Process - SAT2 Mutagenesis Ver. 45)
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+2 0 obj   % PdfSharp.Pdf.Advanced.PdfCatalog
+<<
+  /Pages 3 0 R
+  /Type /Catalog
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+3 0 obj   % PdfSharp.Pdf.PdfPages
+<<
+  /Count 19
+  /Kids [4 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R]
+  /Type /Pages
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+4 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 5 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+5 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2254
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (// Generated: Wednesday, June 04, 2014 9:49:24 AM) Tj
+0 28 Td (profile MSK) Tj
+0 14 Td ({) Tj
+0 14 Td (\t// Runtime settings) Tj
+0 14 Td (\t) Tj
+0 14 Td (\truntime) Tj
+0 14 Td (\t\t\(Mode = 'Simulation', IsAccelerated = 'Yes', IsHybridExecution = 'No', ) Tj
+0 14 Td (\t\tAuditOnSimulate = 'Yes', LogOnSimulate = 'Yes', EnableSimulationEmailNotification = 'No', ) Tj
+0 14 Td (\t\tHibernateOnSimulate = 'No', EnableFixedStartTime = 'Yes', ) Tj
+0 14 Td (\t\tSimulationStartTime = '1/28/2014 12:00 AM', AllowNewIterationsOnDeviceError = 'No', ) Tj
+0 14 Td (\t\tEnableCongestionDetection = 'Yes', CongestionClearQueueTimeThreshold = '00:02:00', ) Tj
+0 14 Td (\t\tMaxQueueTimeThreshold = '00:05:00', EnableVerboseLogging = 'No', ) Tj
+0 14 Td (\t\tEnableExperiments = 'Yes', EnableCampaigns = 'Yes', AutoOffline = 'No', ) Tj
+0 14 Td (\t\tSimplifiedInterface = 'No', ContainerLoadPrompting = 'Yes', ) Tj
+0 14 Td (\t\tContainerUnloadPrompting = 'Yes', AutoUnload = 'No'\) ;) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// Devices and settings) Tj
+0 14 Td (\t) Tj
+0 14 Td (\tdevices) Tj
+0 14 Td (\t{) Tj
+0 14 Td (\t\tKeyenceSR600 BarCode) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tMultidropCombi Combi) Tj
+0 14 Td (\t\t\t\(InitFluid = 'Default Fluid', PrimeWhenIdle = 'No', ) Tj
+0 14 Td (\t\t\tPrimeOnInitialization = 'Yes', PrimeVolumeWhenIdle = '10', ) Tj
+0 14 Td (\t\t\tPrimeIntervalWhenIdle = '5', CassetteUI = '1', OperationDefaults = '', ) Tj
+0 14 Td (\t\t\tActive = 'Active'\) ;) Tj
+0 14 Td (\t\tContainerDataDriver ContainerDataDriver) Tj
+0 14 Td (\t\t\t\(ExcelPass = 'Momentum1', SummaryFormat = 'CSV', SummaryFilename = '', ) Tj
+0 14 Td (\t\t\tSummaryColumns = 'DateTime,Location', OperationDefaults = '', ) Tj
+0 14 Td (\t\t\tActive = 'Active'\) ;) Tj
+0 14 Td (\t\tCytomatHotel CytomatHotel) Tj
+0 14 Td (\t\t\t\(ShakeDuringIncubate = 'No', RPMT1 = '100', RPMT2 = '100', ) Tj
+0 14 Td (\t\t\tScanBarcodeOnGet = 'Yes', FAMModeEnabled = 'No', SearchMode = 'Entire Device', ) Tj
+0 14 Td (\t\t\tHotelsOccupancyLabel = '<Click to Edit ...>', ContainersParticipationLabel = '<Click to Edit ...>', ) Tj
+0 14 Td (\t\t\tOperationDefaults = '', Active = 'Active'\) ;) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+6 0 obj   % PdfSharp.Pdf.Advanced.PdfExtGState
+<<
+  /ca 1
+  /Type /ExtGState
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+7 0 obj   % PdfSharp.Pdf.Advanced.PdfFontDescriptor
+<<
+  /Ascent 833
+  /CapHeight 571
+  /Descent -300
+  /Flags 32
+  /FontBBox [-122 -680 623 1021]
+  /FontName /CourierNew
+  /ItalicAngle 0
+  /StemV 0
+  /Type /FontDescriptor
+  /XHeight 423
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+8 0 obj   % PdfSharp.Pdf.Advanced.PdfTrueTypeFont
+<<
+  /BaseFont /CourierNew
+  /Encoding /WinAnsiEncoding
+  /FirstChar 0
+  /FontDescriptor 7 0 R
+  /LastChar 255
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600]
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+9 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 10 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+10 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 3158
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\tDataMiner DataMiner) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tFreedomEVO EVO) Tj
+0 14 Td (\t\t\t\(ProtocolPath = '\\\\\\\\Tecan-hp8300\\\\C\\\\ProgramData\\\\Tecan\\\\EVOware\\\\database\\\\scripts', ) Tj
+0 14 Td (\t\t\tParkScript = 'ThermoTest_Safe_Left.esc', ExecuteParkMethod = 'Yes', ) Tj
+0 14 Td (\t\t\tUserName = 'Admin', UserPass = 'admin1', OperationDefaults = 'Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\Result~\\'\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\Enabled~\\'Yes\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\Comments~\\'\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\Duration~\\'00:02:44\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\RunOnAbortedIteration~\\'No\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\MaximumOperationTime~\\'00:20:00\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\ScriptName~\\'BufferDispense4ti0203.esc\\';Thermo.Automation.Devices.Instruments.Tecan.FreedomEVO.RunScriptParameter\\\\SetVars~\\'No\\'', ) Tj
+0 14 Td (\t\t\tActive = 'Active'\) ;) Tj
+0 14 Td (\t\tFileManager FileManager) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tFreeNest FreeNest) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Inactive'\) ;) Tj
+0 14 Td (\t\tHiG4Centrifuge HiG4Centrifuge) Tj
+0 14 Td (\t\t\t\(CounterWeight = 'Bucket2', OperationDefaults = '', ) Tj
+0 14 Td (\t\t\tActive = 'Active'\) ;) Tj
+0 14 Td (\t\tHotel Hotel_1) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tHotel Hotel_2) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tInfiniteReader Infinite) Tj
+0 14 Td (\t\t\t\(ProtocolPathListUI = '<Click Button to Edit>', KeepDoorOpenBetweenRead = 'No', ) Tj
+0 14 Td (\t\t\tOperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tIncuShake Inheco) Tj
+0 14 Td (\t\t\t\(XFreq = '142', YFreq = '142', XAmp = '20', YAmp = '20', ) Tj
+0 14 Td (\t\t\tXYPhaseShift = '0', OnlineTemp = '-1', OfflineTemp = '-1', ) Tj
+0 14 Td (\t\t\tShakeDuringLoadIncubate = 'No', UseExactDuration = 'No', ) Tj
+0 14 Td (\t\t\tOperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tLC480 LC480) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tMomentumOperator MomentumOperator) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tGenericMover Orbitor) Tj
+0 14 Td (\t\t\t\(ParkLocation = 'STDloc:safe', ParkMoverAtEndOfRun = 'Yes', ) Tj
+0 14 Td (\t\t\tMotionSettings = 'Velocity: 100%, Acceleration: 100%, Jerk: 100%', ) Tj
+0 14 Td (\t\t\tAllowLidding = 'Yes', OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tPlateLoc PlateLoc) Tj
+0 14 Td (\t\t\t\(PlateLocProfileName = 'Seal', PreHeatingTemperature = '160', ) Tj
+0 14 Td (\t\t\tPostCoolOffTemperature = '40', CloseStageOnLoad = 'Yes', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+11 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 12 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+12 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 1672
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tOperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tRegrip Regrip) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tAgilentMicroplateLabeler Vcode) Tj
+0 14 Td (\t\t\t\(ProfileName = 'LOR3413', OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t\tWaste Waste) Tj
+0 14 Td (\t\t\t\(OperationDefaults = '', Active = 'Active'\) ;) Tj
+0 14 Td (\t}) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// Device Pools) Tj
+0 14 Td (\t) Tj
+0 14 Td (\tpools) Tj
+0 14 Td (\t{) Tj
+0 14 Td (\t\tStoragePool Hotels) Tj
+0 14 Td (\t\t\t\(Strategy = 'Priority First Available', ResetOnNewWorkUnit = 'Yes', ) Tj
+0 14 Td (\t\t\tSkipError = 'No', SkipOffline = 'No', OfflineSkipDuration = '00:00:00'\) Hotel_1, Hotel_2 ;) Tj
+0 14 Td (\t}) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// Profile variables) Tj
+0 14 Td (\t) Tj
+0 14 Td (\tvariables) Tj
+0 14 Td (\t{) Tj
+0 14 Td (\t\tBoolean Lock) Tj
+0 14 Td (\t\t\t\(DefaultValue = 'No', PromptForValue = 'No', Persist = 'No', ) Tj
+0 14 Td (\t\t\tComments = ''\) ;) Tj
+0 14 Td (\t}) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 1  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:48:19 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 2  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:50:33 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 3  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:52:20 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 4  ******************) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+13 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 14 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+14 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2075
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:53:06 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 5  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:54:14 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 6  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:55:32 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 7  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:56:51 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 8  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:57:40 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 9  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:57:58 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 10  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:58:34 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 11  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 1:59:50 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 12  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:01:29 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 13  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:04:56 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 14  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:08:21 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 15  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:09:47 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 16  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:14:35 PM) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+15 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 16 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+16 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2028
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t) Tj
+0 14 Td (\t// ******************  Version 17  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:15:45 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 18  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:17:47 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 19  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:20:26 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 20  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Monday, March 10, 2014 Time: 2:22:22 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 21  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 3:56:03 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 22  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 4:17:45 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 23  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 4:41:30 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 24  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 6:49:09 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 25  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 6:52:11 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 26  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, March 11, 2014 Time: 6:58:00 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 27  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Thursday, April 10, 2014 Time: 9:59:27 AM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 28  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:23:34 PM) Tj
+0 14 Td (\t) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+17 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 18 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+18 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2084
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t// ******************  Version 29  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:34:50 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 30  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:35:05 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 31  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:37:55 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 32  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:39:31 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 33  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:41:50 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 34  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:43:08 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 35  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:44:21 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 36  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:44:35 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 37  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:45:18 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 38  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:45:37 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 39  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:46:25 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 40  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:47:17 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 41  ******************) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+19 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 20 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+20 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2175
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:47:57 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 42  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 2:48:11 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 43  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 4:37:15 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 44  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, April 22, 2014 Time: 4:38:02 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\t// ******************  Version 45  ******************) Tj
+0 14 Td (\t// User: Admin  Date: Tuesday, June 03, 2014 Time: 9:59:18 PM) Tj
+0 14 Td (\t) Tj
+0 14 Td (\tprocess [SAT2 Mutagenesis]) Tj
+0 14 Td (\t{) Tj
+0 14 Td (\t\t// Containers) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tcontainers) Tj
+0 14 Td (\t\t{) Tj
+0 14 Td (\t\t\tplate DeepwellPlate) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = '{[0, 0, 26], \([0, 0, 0], 1\)}', ) Tj
+0 14 Td (\t\t\t\tGripForce = '0', Height = '15', StackHeight = '13.13', ) Tj
+0 14 Td (\t\t\t\tSetSize = '1', Attributes = ''\) ;) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\tplate OligoPlate) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+21 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 22 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+22 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2711
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = '{[0, 0, 1], \([0, 0, 0], 1\)}', ) Tj
+0 14 Td (\t\t\t\tGripForce = '0', Height = '15', StackHeight = '13.13', ) Tj
+0 14 Td (\t\t\t\tSetSize = '1', Attributes = ''\) ;) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\tplate PCRCleanup) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = '{[0, 0, 26], \([0, 0, 0], 1\)}', ) Tj
+0 14 Td (\t\t\t\tGripForce = '0', Height = '15', StackHeight = '13.13', ) Tj
+0 14 Td (\t\t\t\tSetSize = '1', Attributes = ''\) ;) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\tplate PCRPlate1) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = '{[0, 0, 1], \([0, 0, 0], 1\)}', ) Tj
+0 14 Td (\t\t\t\tGripForce = '0', Height = '15', StackHeight = '13.13', ) Tj
+0 14 Td (\t\t\t\tSetSize = '1', Attributes = ''\) ;) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\tplate PCRPlate2) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = '{[0, 0, 1], \([0, 0, 0], 1\)}', ) Tj
+0 14 Td (\t\t\t\tGripForce = '0', Height = '15', StackHeight = '13.13', ) Tj
+0 14 Td (\t\t\t\tSetSize = '1', Attributes = ''\) ;) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+23 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 24 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+24 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2047
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\t) Tj
+0 14 Td (\t\t\tplate PlasmaPlate) Tj
+0 14 Td (\t\t\t\t\(WithLidOffset = '-5', MoverLiddingGripOffset = '3', ) Tj
+0 14 Td (\t\t\t\tWithLidHeight = '17', Thickness = '1', SealThickness = '0', ) Tj
+0 14 Td (\t\t\t\tLid = '\(None\)', NumberOfWellRows = '8', NumberOfWellColumns = '12', ) Tj
+0 14 Td (\t\t\t\tWellNumberingMethod = 'Rows', ContainerTypeNameId = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeRegularExpression = '', BarCodeFile = '', ) Tj
+0 14 Td (\t\t\t\tBarCodeAutoExpression = '"NC" + Format\(Now, "yyMMddHHmmss"\) + "." + Format\(WallClock, "fff"\)', ) Tj
+0 14 Td (\t\t\t\tGripOffset = 'Identity', GripForce = '0', Height = '15', ) Tj
+0 14 Td (\t\t\t\tStackHeight = '13.13', SetSize = '1', Attributes = ''\) ;) Tj
+0 14 Td (\t\t}) Tj
+0 28 Td (\t\t// Process variables) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tvariables) Tj
+0 14 Td (\t\t{) Tj
+0 14 Td (\t\t\tString Barcode) Tj
+0 14 Td (\t\t\t\t\(DefaultValue = '', PromptForValue = 'No', Persist = 'No', ) Tj
+0 14 Td (\t\t\t\tComments = ''\) ;) Tj
+0 14 Td (\t\t\tString Barcode2) Tj
+0 14 Td (\t\t\t\t\(DefaultValue = '', PromptForValue = 'No', Persist = 'No', ) Tj
+0 14 Td (\t\t\t\tComments = ''\) ;) Tj
+0 14 Td (\t\t}) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\t// Process steps) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tset Barcode = '"AA"+Iteration' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tVcode [Print and Apply]) Tj
+0 14 Td (\t\t\t\(Format = '1', Sides = 'North-West', DropStage = 'False', ) Tj
+0 14 Td (\t\t\tAutomaticRetry = 'No', Field1 = $Barcode, Field2 = $Barcode, ) Tj
+0 14 Td (\t\t\tField3 = 'field2', Field4 = 'field3', Field5 = 'field4', ) Tj
+0 14 Td (\t\t\tField6 = 'field5', AssignBarcodeIfSuccessful = 'False', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:50', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+25 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 26 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+26 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2713
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tEVO [RunScript]) Tj
+0 14 Td (\t\t\t\(SetVars = 'No', NoVars = '0', Vars = '', ScriptName = 'ThermoTest_Safe_Left.esc', ) Tj
+0 14 Td (\t\t\tMaximumOperationTime = '00:20:00', WaitMethod = 'Yes', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPlasmaPlate 'Unlidded' in 'EVOHotel_Left\(1\)',) Tj
+0 14 Td (\t\t\tOligoPlate 'Unlidded' in 'EVOHotel_Left\(2\)',) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'EVOHotel_Left\(3\)',) Tj
+0 14 Td (\t\t\tDeepwellPlate 'Unlidded' in 'EVOHotel_Right\(1\)' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tCombi [Dispense]) Tj
+0 14 Td (\t\t\t\(DispenseVolume = '50', FirstCol = '0', FirstRow = '0', ) Tj
+0 14 Td (\t\t\tLastCol = '0', LastRow = '0', PlateType = '96 standard \(15mm\)', ) Tj
+0 14 Td (\t\t\tDispenseOrder = 'No', Fluid = 'Default Fluid', PrimeVolume = '10', ) Tj
+0 14 Td (\t\t\tPrimeEnabled = 'No', PumpSpeed = '50', DispenseHeight = '4200', ) Tj
+0 14 Td (\t\t\tDispenseXOffset = '0', DispenseYOffset = '0', DefaultToColumn1 = 'Yes', ) Tj
+0 14 Td (\t\t\tColumn_1 = '200', Column_2 = '200', Column_3 = '200', ) Tj
+0 14 Td (\t\t\tColumn_4 = '200', Column_5 = '200', Column_6 = '200', ) Tj
+0 14 Td (\t\t\tColumn_7 = '200', Column_8 = '200', Column_9 = '200', ) Tj
+0 14 Td (\t\t\tColumn_10 = '200', Column_11 = '200', Column_12 = '200', ) Tj
+0 14 Td (\t\t\tColumn_13 = '200', Column_14 = '200', Column_15 = '200', ) Tj
+0 14 Td (\t\t\tColumn_16 = '200', Column_17 = '200', Column_18 = '200', ) Tj
+0 14 Td (\t\t\tColumn_19 = '200', Column_20 = '200', Column_21 = '200', ) Tj
+0 14 Td (\t\t\tColumn_22 = '200', Column_23 = '200', Column_24 = '200', ) Tj
+0 14 Td (\t\t\tColumn_25 = '200', Column_26 = '200', Column_27 = '200', ) Tj
+0 14 Td (\t\t\tColumn_28 = '200', Column_29 = '200', Column_30 = '200', ) Tj
+0 14 Td (\t\t\tColumn_31 = '200', Column_32 = '200', Column_33 = '200', ) Tj
+0 14 Td (\t\t\tColumn_34 = '200', Column_35 = '200', Column_36 = '200', ) Tj
+0 14 Td (\t\t\tColumn_37 = '200', Column_38 = '200', Column_39 = '200', ) Tj
+0 14 Td (\t\t\tColumn_40 = '200', Column_41 = '200', Column_42 = '200', ) Tj
+0 14 Td (\t\t\tColumn_43 = '200', Column_44 = '200', Column_45 = '200', ) Tj
+0 14 Td (\t\t\tColumn_46 = '200', Column_47 = '200', Column_48 = '200', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:01:00', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+27 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 28 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+28 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2207
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tDeepwellPlate 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tInheco [Prepare Incubate]) Tj
+0 14 Td (\t\t\t\(ContainerName = 'DeepwellPlate', Temp = '37', XFreq = '142', ) Tj
+0 14 Td (\t\t\tYFreq = '142', XAmp = '20', YAmp = '20', XYPhaseShift = '0', ) Tj
+0 14 Td (\t\t\tShakeDuringIncubate = 'Yes', ShakeUntilUnloaded = 'Yes', ) Tj
+0 14 Td (\t\t\tMaxDuration = '00:01:00', PreCondition = '', RunOnAbortedIteration = 'No', ) Tj
+0 14 Td (\t\t\tDuration = '00:00:10', Comments = '', MinDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\tMaxDelaySpecified = 'No', RequestedMaxDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\tSpoilIfMaxDelayExceeded = 'No', Enabled = 'Yes', Result = ''\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tInheco [Incubate]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tDeepwellPlate 'Lidded' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tDeepwellPlate ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tparallel) Tj
+0 14 Td (\t\t{) Tj
+0 14 Td (\t\t\tbranch // 1 of 3) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\t{) Tj
+0 14 Td (\t\t\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', ) Tj
+0 14 Td (\t\t\t\t\tDuration = '00:00:01', Comments = '', MinDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tMaxDelaySpecified = 'No', RequestedMaxDelay = '00:00:00', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+29 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 30 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+30 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 1918
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\t\t\tSpoilIfMaxDelayExceeded = 'No', Enabled = 'Yes', ) Tj
+0 14 Td (\t\t\t\t\tResult = ''\)) Tj
+0 14 Td (\t\t\t\t\tOligoPlate ;) Tj
+0 14 Td (\t\t\t}) Tj
+0 14 Td (\t\t\tbranch // 2 of 3) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\t{) Tj
+0 14 Td (\t\t\t\tPlateLoc [Seal]) Tj
+0 14 Td (\t\t\t\t\t\(LowSealingTemperature = '170', SealingTemperature = '173', ) Tj
+0 14 Td (\t\t\t\t\tSealingTimeout = '00:00:00', SealingTime = '1.2', ) Tj
+0 14 Td (\t\t\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', ) Tj
+0 14 Td (\t\t\t\t\tDuration = '00:00:50', Comments = '', MinDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tMaxDelaySpecified = 'No', RequestedMaxDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tSpoilIfMaxDelayExceeded = 'No', Enabled = 'Yes', ) Tj
+0 14 Td (\t\t\t\t\tResult = ''\)) Tj
+0 14 Td (\t\t\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t\t\t) Tj
+0 14 Td (\t\t\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', ) Tj
+0 14 Td (\t\t\t\t\tDuration = '00:00:01', Comments = '', MinDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tMaxDelaySpecified = 'No', RequestedMaxDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tSpoilIfMaxDelayExceeded = 'No', Enabled = 'Yes', ) Tj
+0 14 Td (\t\t\t\t\tResult = ''\)) Tj
+0 14 Td (\t\t\t\t\tPCRPlate1 ;) Tj
+0 14 Td (\t\t\t}) Tj
+0 14 Td (\t\t\tbranch // 3 of 3) Tj
+0 14 Td (\t\t\t) Tj
+0 14 Td (\t\t\t{) Tj
+0 14 Td (\t\t\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', ) Tj
+0 14 Td (\t\t\t\t\tDuration = '00:00:01', Comments = '', MinDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tMaxDelaySpecified = 'No', RequestedMaxDelay = '00:00:00', ) Tj
+0 14 Td (\t\t\t\t\tSpoilIfMaxDelayExceeded = 'No', Enabled = 'Yes', ) Tj
+0 14 Td (\t\t\t\t\tResult = ''\)) Tj
+0 14 Td (\t\t\t\t\tPlasmaPlate ;) Tj
+0 14 Td (\t\t\t}) Tj
+0 14 Td (\t\t}) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+31 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 32 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+32 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2187
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t) Tj
+0 14 Td (\t\tacquire \(Lock\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tLC480 [Scan Barcode]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:20', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tLC480 [Run Macro]) Tj
+0 14 Td (\t\t\t\(MaximumOperationTime = '00:30:00', ProtocolName = 'Test Macro', ) Tj
+0 14 Td (\t\t\tExportOutput = 'No', ProtocolPath = '/system admin/macros', ) Tj
+0 14 Td (\t\t\tOutputName = '<MACRO>_<DATETIME>', OutputPath = '/system admin/experiments', ) Tj
+0 14 Td (\t\t\tExportOutputName = '<MACRO>_<DATETIME>', ExportOutputPath = '', ) Tj
+0 14 Td (\t\t\tExportFormatsString = 'xml + ixo', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\trelease \(Lock\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tcomment \('Spin'\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHiG4Centrifuge [Spin]) Tj
+0 14 Td (\t\t\t\(SpinGs = '250', AccelerationPercent = '50', DecelerationPercent = '50', ) Tj
+0 14 Td (\t\t\tSpinTimeAtCruiseVelocity = '00:00:00', BucketNumberToLoad = 'Bucket1', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:00', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+33 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 34 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+34 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2345
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 in 'Bucket 1' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tEVO [RunScript]) Tj
+0 14 Td (\t\t\t\(SetVars = 'No', NoVars = '0', Vars = '', ScriptName = 'ThermoTest_Safe_Left.esc', ) Tj
+0 14 Td (\t\t\tMaximumOperationTime = '00:20:00', WaitMethod = 'Yes', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'EVOHotel_Left\(3\)' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tLC480 [Run Macro]) Tj
+0 14 Td (\t\t\t\(MaximumOperationTime = '00:30:00', ProtocolName = 'Test Macro', ) Tj
+0 14 Td (\t\t\tExportOutput = 'No', ProtocolPath = '/system admin/macros', ) Tj
+0 14 Td (\t\t\tOutputName = '<MACRO>_<DATETIME>', OutputPath = '/system admin/experiments', ) Tj
+0 14 Td (\t\t\tExportOutputName = '<MACRO>_<DATETIME>', ExportOutputPath = '', ) Tj
+0 14 Td (\t\t\tExportFormatsString = 'xml + ixo', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tcomment \('Spin'\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHiG4Centrifuge [Spin]) Tj
+0 14 Td (\t\t\t\(SpinGs = '250', AccelerationPercent = '50', DecelerationPercent = '50', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+35 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 36 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+36 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2447
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tSpinTimeAtCruiseVelocity = '00:00:00', BucketNumberToLoad = 'Bucket1', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 in 'Bucket 1' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tset Barcode2 = '"BB"+Iteration' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tVcode [Print and Apply]) Tj
+0 14 Td (\t\t\t\(Format = '1', Sides = 'North-West', DropStage = 'False', ) Tj
+0 14 Td (\t\t\tAutomaticRetry = 'No', Field1 = $Barcode2, Field2 = $Barcode2, ) Tj
+0 14 Td (\t\t\tField3 = 'field2', Field4 = 'field3', Field5 = 'field4', ) Tj
+0 14 Td (\t\t\tField6 = 'field5', AssignBarcodeIfSuccessful = 'False', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:50', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tEVO [RunScript]) Tj
+0 14 Td (\t\t\t\(SetVars = 'No', NoVars = '0', Vars = '', ScriptName = 'ThermoTest_Safe_Left.esc', ) Tj
+0 14 Td (\t\t\tMaximumOperationTime = '00:20:00', WaitMethod = 'Yes', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'EVOHotel_Left\(3\)',) Tj
+0 14 Td (\t\t\tPCRCleanup 'Unlidded' in 'EVOHotel_Right\(1\)',) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'EVOHotel_Left\(2\)' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRCleanup ;) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+37 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 38 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+38 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2313
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Seal]) Tj
+0 14 Td (\t\t\t\(LowSealingTemperature = '170', SealingTemperature = '173', ) Tj
+0 14 Td (\t\t\tSealingTimeout = '00:00:00', SealingTime = '1.2', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:00:50', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate1 ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Seal]) Tj
+0 14 Td (\t\t\t\(LowSealingTemperature = '170', SealingTemperature = '173', ) Tj
+0 14 Td (\t\t\tSealingTimeout = '00:00:00', SealingTime = '1.2', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:00:50', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+39 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 40 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+40 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2238
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tacquire \(Lock\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tLC480 [Scan Barcode]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:20', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tLC480 [Run Macro]) Tj
+0 14 Td (\t\t\t\(MaximumOperationTime = '00:30:00', ProtocolName = 'Test Macro', ) Tj
+0 14 Td (\t\t\tExportOutput = 'No', ProtocolPath = '/system admin/macros', ) Tj
+0 14 Td (\t\t\tOutputName = '<MACRO>_<DATETIME>', OutputPath = '/system admin/experiments', ) Tj
+0 14 Td (\t\t\tExportOutputName = '<MACRO>_<DATETIME>', ExportOutputPath = '', ) Tj
+0 14 Td (\t\t\tExportFormatsString = 'xml + ixo', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 ;) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+41 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 42 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+42 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 2240
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t) Tj
+0 14 Td (\t\trelease \(Lock\) ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tEVO [RunScript]) Tj
+0 14 Td (\t\t\t\(SetVars = 'No', NoVars = '0', Vars = '', ScriptName = 'ThermoTest_Safe_Left.esc', ) Tj
+0 14 Td (\t\t\tMaximumOperationTime = '00:20:00', WaitMethod = 'Yes', ) Tj
+0 14 Td (\t\t\tPreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:02:00', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'EVOHotel_Left\(2\)' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tHotel_2 [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tPlateLoc [Seal]) Tj
+0 14 Td (\t\t\t\(LowSealingTemperature = '170', SealingTemperature = '173', ) Tj
+0 14 Td (\t\t\tSealingTimeout = '00:00:00', SealingTime = '1.2', PreCondition = '', ) Tj
+0 14 Td (\t\t\tRunOnAbortedIteration = 'No', Duration = '00:00:50', ) Tj
+0 14 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 'Unlidded' in 'Nest' ;) Tj
+0 14 Td (\t\t) Tj
+0 14 Td (\t\tCytomatHotel [Load]) Tj
+0 14 Td (\t\t\t\(PreCondition = '', RunOnAbortedIteration = 'No', Duration = '00:00:01', ) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+43 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 44 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 842 595]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+44 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 340
+>>
+stream
+q
+1 0 0 -1 0 595 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -9 Tf
+20 54 Td (\t\t\tComments = '', MinDelay = '00:00:00', MaxDelaySpecified = 'No', ) Tj
+0 14 Td (\t\t\tRequestedMaxDelay = '00:00:00', SpoilIfMaxDelayExceeded = 'No', ) Tj
+0 14 Td (\t\t\tEnabled = 'Yes', Result = ''\)) Tj
+0 14 Td (\t\t\tPCRPlate2 ;) Tj
+0 14 Td (\t}) Tj
+0 14 Td (}) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+xref
+0 45
+0000000000 65535 f 
+0000000411 00000 n 
+0000000780 00000 n 
+0000000970 00000 n 
+0000001285 00000 n 
+0000001745 00000 n 
+0000004189 00000 n 
+0000004376 00000 n 
+0000004724 00000 n 
+0000006066 00000 n 
+0000006527 00000 n 
+0000009876 00000 n 
+0000010338 00000 n 
+0000012201 00000 n 
+0000012663 00000 n 
+0000014929 00000 n 
+0000015391 00000 n 
+0000017610 00000 n 
+0000018072 00000 n 
+0000020347 00000 n 
+0000020809 00000 n 
+0000023175 00000 n 
+0000023637 00000 n 
+0000026539 00000 n 
+0000027001 00000 n 
+0000029239 00000 n 
+0000029701 00000 n 
+0000032605 00000 n 
+0000033067 00000 n 
+0000035465 00000 n 
+0000035927 00000 n 
+0000038036 00000 n 
+0000038498 00000 n 
+0000040876 00000 n 
+0000041338 00000 n 
+0000043874 00000 n 
+0000044336 00000 n 
+0000046974 00000 n 
+0000047436 00000 n 
+0000049940 00000 n 
+0000050402 00000 n 
+0000052831 00000 n 
+0000053293 00000 n 
+0000055724 00000 n 
+0000056186 00000 n 
+trailer
+<<
+  /ID [<C2380581C2AB4243875258F8DCD5FA06><C2380581C2AB4243875258F8DCD5FA06>]
+  /Info 1 0 R
+  /Root 2 0 R
+  /Size 45
+>>
+startxref
+56716
+%%EOF

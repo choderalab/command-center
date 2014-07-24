@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes"?>
+<RuntimeContainersDS xmlns="http://tempuri.org/RuntimeContainersDS.xsd">
+  <Containers>
+    <Uri>4f48ffe9-ff11-45c2-aa91-0b48e7ea4867\1\Work Unit 102\Batch 2\plate\AssayPlate\1</Uri>
+    <Experiment>Batch 2</Experiment>
+    <ContainerName>AssayPlate</ContainerName>
+    <ContainerType>4titude 4ti-0223</ContainerType>
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 4:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://77fdfe60-9d0f-4f74-9c13-d5d70b4e2867</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\OligoPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>OligoPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 1:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://1666ca5e-cd45-44c2-8796-b7a7e2963993</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\PCRPlate1\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRPlate1</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 2:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://7a2c6b00-6e38-4709-b97f-657ffe689a7b</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\DeepwellPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>DeepwellPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 5:Nest 2</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://e5e6c236-475c-417a-9876-636bfb4cc5fa</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\PlasmaPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PlasmaPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 3:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://fa387567-178f-4514-ad44-2aa50a37f14c</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\PCRPlate2\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRPlate2</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 2:Nest 3</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://8e1098b2-d270-426b-8bd5-2e50d6d55b78</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\1\Work Unit 102\Batch 1\plate\PCRCleanup\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRCleanup</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 5:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://4ca29723-3b3c-4df1-a6b5-3864f7a2491f</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\OligoPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>OligoPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 1:Nest 2</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://0775ff71-b2c6-42f8-8558-8197ba46ada4</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\PCRPlate1\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRPlate1</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 2:Nest 2</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://5e0be9c6-6d19-4af1-be6e-bb145d7ac246</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\DeepwellPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>DeepwellPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 5:Nest 4</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://6297d2f6-f169-4c88-89ac-1e43e01ef102</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\PlasmaPlate\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PlasmaPlate</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 3:Nest 2</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://bb0f5c4c-b2b8-4b7f-90e1-f9146d8db790</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\PCRPlate2\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRPlate2</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 2:Nest 4</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://0c3d6804-96b3-406b-bec4-0fa82458cd6c</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+  <Containers>
+    <Uri>e84ac715-8827-4c56-8d67-10cbec19fce7\2\Work Unit 102\Batch 1\plate\PCRCleanup\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>PCRCleanup</ContainerName>
+    <ContainerType />
+    <Status>Unloaded</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 5:Nest 3</Nest>
+    <IterationNumber>2</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://eea86fdd-2c6a-41a7-bf53-be9d73d09ea4</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+</RuntimeContainersDS>

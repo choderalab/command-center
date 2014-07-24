@@ -1,0 +1,155 @@
+<?xml version="1.0" standalone="yes"?>
+<RuntimeMessagesDS xmlns="http://tempuri.org/RuntimeMessagesDS.xsd">
+  <Messages>
+    <Title>Batch Unloaded</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 102\Batch 1" has been unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T01:42:39-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Batch Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 102\Batch 1" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T01:42:39-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 102" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T01:42:39-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Complete</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details>Elapsed wall clock time: 00:00:09.6655529</Details>
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 102" has completed.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T01:42:39-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Batch Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 102\Batch 2" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T00:52:57-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Started</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 102" has started.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T00:51:00-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Batch Loaded</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 102\Batch 2" has been loaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T00:51:00-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Loaded</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 102" has been loaded.</Description>
+    <CreatedTime />
+    <Items />
+    <SeverityImage xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    <AreaText />
+    <PostedDate>2014-01-28T00:51:00-05:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+</RuntimeMessagesDS>
