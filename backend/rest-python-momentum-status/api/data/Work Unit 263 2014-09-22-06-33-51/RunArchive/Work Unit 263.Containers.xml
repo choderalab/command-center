@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<RuntimeContainersDS xmlns="http://tempuri.org/RuntimeContainersDS.xsd">
+  <Containers>
+    <Uri>c2bfc4c0-8e91-472a-9333-a1d5efbff94e\1\Work Unit 263\Batch 1\plate\4ti0381\1</Uri>
+    <Experiment>Batch 1</Experiment>
+    <ContainerName>4ti0381</ContainerName>
+    <ContainerType />
+    <Status>Complete</Status>
+    <Instrument>CytomatHotel</Instrument>
+    <InstrumentUri>cytomatHotelInstrument://MSK/CytomatHotel</InstrumentUri>
+    <Nest>Stack 2:Nest 1</Nest>
+    <IterationNumber>1</IterationNumber>
+    <Spoiled>false</Spoiled>
+    <AbortState>0</AbortState>
+    <FinishState>1</FinishState>
+    <CanEditFinishState>false</CanEditFinishState>
+    <NestUri>nest://44adc2c5-4444-45f9-af4d-f0cee4b7c061</NestUri>
+    <AssignmentMethod>Process</AssignmentMethod>
+  </Containers>
+</RuntimeContainersDS>

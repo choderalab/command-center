@@ -16,6 +16,10 @@ from flask_httpauth import HTTPBasicAuth
 from functools import wraps
 from flask import current_app
 
+import HTMLParser
+
+h = HTMLParser.HTMLParser()
+
 def jsonp(func):
     """Wraps JSONified output for JSONP requests."""
     @wraps(func)
@@ -64,10 +68,11 @@ def _get_timestamp(elem):
     return tt
 #    return (tt - parse("Jan 1st, 2014")).total_seconds()
 
+# _parse_[name] functions that parse the xml nodes of type name
+
 def _parse_System(elem):
     system_state.append({ 'time' :  _get_timestamp(elem) ,'state' :  elem.attrib['state'] })
 
-    
 def _parse_Device(elem):
     
     if elem.attrib['Device'] not in device_state:
@@ -76,17 +81,43 @@ def _parse_Device(elem):
         device_state[elem.attrib['Device']].append({ 'time' :  _get_timestamp(elem) ,'state' :  elem.attrib['State'] })
 
 def _parse_AutomationMessage(elem):
-    messages.append({
+    title = elem.attrib['Title']
+
+    replacement = 'xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;'
+    #
+    description = h.unescape(elem.attrib['Description'])
+    message = h.unescape(elem.attrib['Message'])
+    
+    mode = 'Result' in elem.attrib
+    if mode:
+        result = elem.attrib['Result']
+        selected = elem.attrin['SelectedItems']
+    
+    if title = 'Device State' or title = 'Device Mode':
+        # The state of a device has changed. Can be ignored.
+    elif title = '':
+        messages.append({
                      'time' : _get_timestamp(elem),
                      'title' : elem.attrib['Title'],
                      'description' : elem.attrib['Description']
                      })
+        
+    else:
+        
     
 def _parse_DeviceVariable(elem):
-    if elem.attrib['Name'] not in device_state:
-        device_variable[elem.attrib['Name']] = [{ 'time' :  _get_timestamp(elem) ,'state' :  elem.attrib['Value'] }]
+    name = elem.attrib['Name']
+    value = elem.attrib['Value']
+    
+    if name == 'OnlineState':
+        # IMPORTANT! This informs about occurred errors!
+        if value == 'Error':
+            # An error has occurred
+    
+    if name not in device_state:
+        device_variable[name] = [{ 'time' :  _get_timestamp(elem) ,'state' :  value }]
     else:
-        device_variable[elem.attrib['Name']].append({ 'time' :  _get_timestamp(elem) ,'state' :  elem.attrib['Value'] })
+        device_variable[name].append({ 'time' :  _get_timestamp(elem) ,'state' :  value })
 
 
 def get_events_from_xml(file):
@@ -116,12 +147,11 @@ def parse_events(root):
     for elem in root.xpath("//Datum"):
         lines_parsed = lines_parsed + 1
         ti = _get_timestamp(elem)
-        if ti >= last_timestamp:
+        if ti >= last_timestamp - 2:
             fnc = '_parse_' + elem.attrib['Type']
             if fnc in globals():
                 globals()[fnc](elem)
             last_timestamp = ti
-
 
     
 def readAudit():

@@ -1,0 +1,375 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement xmlns="http://tempuri.org/RuntimeMessagesDS.xsd">
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Online.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:51:28.2886214-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device Mode</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has been started in Normal mode.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:49:51.5240867-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Starting.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:49:51.5130861-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Offline.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:49:50.5640318-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Stopping.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:49:50.5530312-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Batch Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 263\Batch 1" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:45:53.227457-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 263" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:45:53.2224567-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Complete</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details>Elapsed wall clock time: 00:12:01.3982617</Details>
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 263" has completed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:45:53.2014555-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Continue</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>Running of the work unit "Work Unit 263" has been resumed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:38:48.588169-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Pending Work Aborted</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>Pending work has been aborted.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:38:48.5741682-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>The Thermo Scientific Mover "Orbitor" monitor task encountered an error.</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Error</Severity>
+    <Area />
+    <Details>Power is off; please check that the Motor On button is lit.
+Power is off; please check that the Motor On button is lit.</Details>
+    <AllowCancellation />
+    <HelpText>More about resolving Thermo Scientific Mover errors...</HelpText>
+    <ExtensionData />
+    <Description>One or more errors have occurred on the mover:
+
+The mover is not powered. Please restore motor power to proceed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:38:48.4501611-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Paused</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>Running of the work unit "Work Unit 263" has been suspended.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:38:48.4401605-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>The Thermo Scientific Mover "Orbitor" monitor task encountered an error.</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Error</Severity>
+    <Area />
+    <Details>Power is off; please check that the Motor On button is lit.
+Power is off; please check that the Motor On button is lit.</Details>
+    <AllowCancellation />
+    <HelpText>More about resolving Thermo Scientific Mover errors...</HelpText>
+    <ExtensionData />
+    <Description>One or more errors have occurred on the mover:
+
+The mover is not powered. Please restore motor power to proceed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:38:37.4545322-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Online.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:37:53.7290312-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device Mode</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has been started in Normal mode.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:37:50.6958577-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Starting.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:37:50.6928576-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Offline.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:37:45.8765821-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Stopping.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:37:45.8495805-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>The Thermo Scientific Mover "Orbitor" monitor task encountered an error.</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Error</Severity>
+    <Area />
+    <Details>Error on motor 3: Drive power undervoltage.
+Power is off; please check that the Motor On button is lit.</Details>
+    <AllowCancellation />
+    <HelpText>More about resolving Thermo Scientific Mover errors...</HelpText>
+    <ExtensionData />
+    <Description>One or more errors have occurred on the mover:
+
+The mover is not powered. Please restore motor power to proceed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:34:44.7902245-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Started</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 263" has started.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:33:51.2711634-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+</DocumentElement>

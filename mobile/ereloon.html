@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+        <title>Ereloon Abrechnungs Generator V1.0 Beta</title>
+
+        <link href="css/style.default.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/jquery.tagsinput.css" />
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body style="overflow: auto;" class="horizontal-menu">
+
+        <section>
+            <div class="leftpanel">
+
+                <div class="logopanel">
+                    <h1><span>[</span> bracket <span>]</span></h1>
+                </div><!-- logopanel -->
+            </div><!-- leftpanel -->
+            <div class="mainpanel">
+
+                <div class="headerbar">
+                    <div class="header-right">
+                        <ul class="headermenu">
+                            <li>
+                                <div class="btn-group">
+                                    <button class="btn btn-warning dropdown-toggle tp-icon">
+                                        Online
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group">
+                                    <button class="btn btn-default dropdown-toggle tp-icon" data-toggle="dropdown">
+                                        <i class="glyphicon glyphicon-user"></i>
+                                        <span class="badge">2</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-head pull-right">
+                                        <h5 class="title">2 Newly Registered Users</h5>
+                                        <ul class="dropdown-list user-list">
+                                            <li class="new">
+                                                <div class="thumb"><a href=""><img src="images/photos/user1.png" alt="" /></a></div>
+                                                <div class="desc">
+                                                    <h5><a href="">Draniem Daamul (@draniem)</a> <span class="badge badge-success">new</span></h5>
+                                                </div>
+                                            </li>
+                                            <li class="new">
+                                                <div class="thumb"><a href=""><img src="images/photos/user2.png" alt="" /></a></div>
+                                                <div class="desc">
+                                                    <h5><a href="">Zaham Sindilmaca (@zaham)</a> <span class="badge badge-success">new</span></h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb"><a href=""><img src="images/photos/user3.png" alt="" /></a></div>
+                                                <div class="desc">
+                                                    <h5><a href="">Weno Carasbong (@wenocar)</a></h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb"><a href=""><img src="images/photos/user4.png" alt="" /></a></div>
+                                                <div class="desc">
+                                                    <h5><a href="">Nusja Nawancali (@nusja)</a></h5>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb"><a href=""><img src="images/photos/user5.png" alt="" /></a></div>
+                                                <div class="desc">
+                                                    <h5><a href="">Lane Kitmari (@lane_kitmare)</a></h5>
+                                                </div>
+                                            </li>
+                                            <li class="new"><a href="">See All Users</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group">
+                                    <button class="btn btn-default dropdown-toggle tp-icon" data-toggle="dropdown">
+                                        <i class="glyphicon glyphicon-envelope"></i>
+                                        <span class="badge">1</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-head pull-right">
+                                        <h5 class="title">You Have 1 New Message</h5>
+                                        <ul class="dropdown-list gen-list">
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user1.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Draniem Daamul <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">Lorem ipsum dolor sit amet...</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user2.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Nusja Nawancali</span>
+                                                        <span class="msg">Lorem ipsum dolor sit amet...</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user3.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Weno Carasbong</span>
+                                                        <span class="msg">Lorem ipsum dolor sit amet...</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user4.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Zaham Sindilmaca</span>
+                                                        <span class="msg">Lorem ipsum dolor sit amet...</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user5.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Veno Leongal</span>
+                                                        <span class="msg">Lorem ipsum dolor sit amet...</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new"><a href="">Read All Messages</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group">
+                                    <button class="btn btn-default dropdown-toggle tp-icon" data-toggle="dropdown">
+                                        <i class="glyphicon glyphicon-globe"></i>
+                                        <span class="badge">5</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-head pull-right">
+                                        <h5 class="title">You Have 5 New Notifications</h5>
+                                        <ul class="dropdown-list gen-list">
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user4.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Zaham Sindilmaca <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">is now following you</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user5.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Weno Carasbong <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">is now following you</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user3.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Veno Leongal <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">likes your recent status</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user3.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Nusja Nawancali <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">downloaded your work</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new">
+                                                <a href="">
+                                                    <span class="thumb"><img src="images/photos/user3.png" alt="" /></span>
+                                                    <span class="desc">
+                                                        <span class="name">Nusja Nawancali <span class="badge badge-success">new</span></span>
+                                                        <span class="msg">send you 2 messages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="new"><a href="">See All Notifications</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        <img src="images/photos/loggeduser.png" alt="" />
+                                        John Doe
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                                        <li><a href="profile.html"><i class="glyphicon glyphicon-user"></i> My Profile</a></li>
+                                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Account Settings</a></li>
+                                        <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i> Help</a></li>
+                                        <li><a href="signin.html"><i class="glyphicon glyphicon-log-out"></i> Log Out</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- header-right -->
+
+                </div><!-- headerbar -->
+
+                <div class="pageheader">
+                    <h2><i class="fa fa-home"></i> Chodera Lab Mobile App <span>Robot Info</span></h2>
+                    <div class="breadcrumb-wrapper">
+                        <ol class="breadcrumb">
+                            <li class="active">Main</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="contentpanel">
+                    <!-- content goes here... -->
+
+                    <div class="row">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li><a href="#home" data-toggle="tab"><strong>Home</strong></a></li>
+                            <li><a href="#momentum" data-toggle="tab"><strong>Status</strong></a></li>
+                            <li class="active"><a href="#messages" data-toggle="tab"><strong>Messages <span class="label label-danger" data-bind="text: new_messages"></span></strong></a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content mb30">
+                            <div class="tab-pane" id="home">
+                                <h4 class="dark">It has become appallingly obvious that our technology has exceeded our humanity. &nbsp;<small>- Albert Einstein</small></h4>
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="panel panel-success panel-stat">
+                                        <div class="panel-heading">
+
+                                            <div class="stat">
+                                                <div class="row">
+                                                    <div class="col-xs-4" style="text-align:center;">
+                                                        <span class="wi-thermometer fa-5x"></span>
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <small class="stat-label">Keshari Freezer</small>
+                                                        <h1 data-bind="text: temperature"></h1>
+                                                    </div>
+                                                </div><!-- row -->
+
+                                                <div class="mb15"></div>
+
+                                                <div class="row">
+                                                    <div class="col-xs-6">
+                                                        <small class="stat-label">Min / Max</small>
+                                                        <h4> - / - &deg;C</h4>
+                                                    </div>
+
+                                                    <div class="col-xs-6">
+                                                        <small class="stat-label"></small>
+                                                        <h4></h4>
+                                                    </div>
+                                                </div><!-- row -->
+                                            </div><!-- stat -->
+
+                                        </div><!-- panel-heading -->
+                                    </div><!-- panel -->
+                                </div><!-- col-sm-6 -->
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="panel panel-danger panel-stat">
+                                        <div class="panel-heading">
+
+                                            <div class="stat">
+                                                <div class="row">
+                                                    <div class="col-xs-4">
+                                                        <img src="images/is-document.png" alt="" />
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <small class="stat-label">% Unique Visitors</small>
+                                                        <h1>54.40%</h1>
+                                                    </div>
+                                                </div><!-- row -->
+
+                                                <div class="mb15"></div>
+
+                                                <small class="stat-label">Avg. Visit Duration</small>
+                                                <h4>01:80:22</h4>
+
+                                            </div><!-- stat -->
+
+                                        </div><!-- panel-heading -->
+                                    </div><!-- panel -->
+                                </div><!-- col-sm-6 -->
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="panel panel-primary panel-stat">
+                                        <div class="panel-heading">
+
+                                            <div class="stat">
+                                                <div class="row">
+                                                    <div class="col-xs-4">
+                                                        <img src="images/is-document.png" alt="" />
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <small class="stat-label">Page Views</small>
+                                                        <h1>300k+</h1>
+                                                    </div>
+                                                </div><!-- row -->
+
+                                                <div class="mb15"></div>
+
+                                                <small class="stat-label">% Bounce Rate</small>
+                                                <h4>34.23%</h4>
+
+                                            </div><!-- stat -->
+
+                                        </div><!-- panel-heading -->
+                                    </div><!-- panel -->
+                                </div><!-- col-sm-6 -->
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="panel panel-dark panel-stat">
+                                        <div class="panel-heading">
+
+                                            <div class="stat">
+                                                <div class="row">
+                                                    <div class="col-xs-4">
+                                                        <img src="images/is-money.png" alt="" />
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <small class="stat-label">Today's Earnings</small>
+                                                        <h1>$655</h1>
+                                                    </div>
+                                                </div><!-- row -->
+
+                                                <div class="mb15"></div>
+
+                                                <div class="row">
+                                                    <div class="col-xs-6">
+                                                        <small class="stat-label">Last Week</small>
+                                                        <h4>$32,322</h4>
+                                                    </div>
+
+                                                    <div class="col-xs-6">
+                                                        <small class="stat-label">Last Month</small>
+                                                        <h4>$503,000</h4>
+                                                    </div>
+                                                </div><!-- row -->
+
+                                            </div><!-- stat -->
+
+                                        </div><!-- panel-heading -->
+                                    </div><!-- panel -->
+                                </div><!-- col-sm-6 -->                            
+                            </div>
+                            <div class="tab-pane" id="momentum">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr class="table-head-alt">
+                                                <th>Name</th>
+                                                <th>Status</th>
+                                                <th>Change</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- ko foreach: momentum -->
+
+                                            <tr>
+                                                <td><a href="" data-bind="text: label">Major</a></td>
+                                                <td>
+                                                    <div data-bind="css: 'badge-' + badge()" class="badge"><span data-bind="text: status"></span></div>
+                                                </td>
+                                                <td><span data-bind="text: time"></span></td>
+                                            </tr>
+
+                                            <!--  /ko -->
+
+                                        </tbody>
+                                    </table>
+                                </div><!-- table-responsive -->
+                            </div>
+                            <div class="tab-pane active" id="messages">
+                                <div class="col-sm-12">
+                                    <div class="panel panel-default panel-alt widget-messaging scrolling">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-edit"><i class="fa fa-edit"></i></a>
+
+                                            </div><!-- panel-btns -->
+                                            <div class="btn-group">
+
+                                                <div class="btn btn-success">All</div>
+                                                <div class="btn btn-info">Worklist</div>
+                                                <div class="btn btn-info">Batch</div>
+                                                <div class="btn btn-danger">Error</div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="panel-body" style="overflow: auto;">
+                                            <ul>
+                                                <!-- ko foreach: partMessages -->
+                                                <li style="line-height: 15px;">
+                                                    <small class="pull-right" data-bind="text: ago()"></small>
+                                                    <h4 class="sender"><span data-bind="text: title"></span></h4>
+                                                    <small data-bind="text: description"></small>
+                                                    <h4 class="sender"><span data-bind="text: selected"></span></h4>
+                                                </li>
+                                                <!-- /ko -->
+                                            </ul>
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+                                </div><!-- col-sm-6 -->
+                            </div>
+                        </div>
+
+                    </div><!-- row -->                    
+
+                </div>
+            </div><!-- mainpanel -->
+        </section>
+
+        <script src="js/js/jquery-1.10.2.min.js"></script>
+        <script src="js/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/js/jquery-ui-1.10.3.min.js"></script>
+
+        <script src="js/js/bootstrap.min.js"></script>
+        <script src="js/js/modernizr.min.js"></script>
+        <script src="js/js/jquery.sparkline.min.js"></script>
+        <script src="js/js/toggles.min.js"></script>
+        <script src="js/js/retina.min.js"></script>
+        <script src="js/js/jquery.cookies.js"></script>
+        <script src="js/js/chosen.jquery.min.js"></script>
+        <script src="js/js/bootstrap-timepicker.min.js"></script>
+        <script src="js/js/jquery.maskedinput.min.js"></script>
+        <script src="js/js/jquery.tagsinput.min.js"></script>
+        <script src="js/js/amplify-1.1.2/amplify.min.js"></script>
+
+
+        <script src="bower_components/knockoutjs/dist/knockout.js"></script>
+        <script src="bower_components/moment/moment.js"></script>
+
+        <script src="bower_components/director/build/director.js"></script>
+
+
+        <script src="bower_components/autofill-event/src/autofill-event.js"></script>
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <script src="modules/momentum/status.js"></script>
+        <script src="modules/momentum/messages.js"></script>
+        <script src="modules/temperature/temperature.js"></script>
+
+        <script src="js/data.js"></script>
+        <script src="js/model.js"></script>
+
+
+        <script src="js/js/custom.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+                jQuery('#collegues').tagsInput({
+                    'width': 'auto',
+                    'height': 'auto',
+                    'onAddTag': function() {
+                        jQuery(".collegue-select").map(
+                                function() {
+                                    newOptions = jQuery('#collegues')[0].value.split(",");
+                                    lastOption = newOptions[newOptions.length - 1];
+                                    var $el = $(this);
+                                    $el.append($("<option></option>")
+                                            .attr("value", lastOption).text(lastOption));
+                                    $el.trigger("chosen:updated");
+                                });
+                    },
+                    'onRemoveTag': function(removed) {
+                        jQuery(".collegue-select").map(
+                                function() {
+                                    var $el = $(this);
+                                    option = $el.find('option[value="' + removed + '"]');
+                                    option.remove();
+                                    $el.trigger("chosen:updated");
+                                });
+                    }
+
+                });
+
+                jQuery(".chosen-select").chosen({'width': '100%', 'white-space': 'nowrap'});
+
+                jQuery(".collegue-select").map(
+                        function() {
+                            newOptions = jQuery('#collegues')[0].value.split(",");
+                            var $el = $(this);
+                            $el.empty(); // remove old options
+                            $.each(newOptions, function(key, value) {
+                                $el.append($("<option></option>")
+                                        .attr("value", value).text(value));
+                            });
+                            $el.chosen({'width': '100%', 'white-space': 'nowrap'});
+                        });
+
+                //                jQuery(".location-select").map(
+                //                        function() {
+                //                            var $el = $(this);
+                //                            $el.empty(); // remove old options
+                //                            $el.append($("<option></option>")
+                //                                    .attr("value", "").text(""));
+                //                            $.each(places, function(key, value) {
+                //                                $el.append($("<option></option>")
+                //                                        .attr("value", value.city).text(value.city));
+                //                            });
+                //                            $el.chosen({'width': '100%', 'white-space': 'nowrap'}).on('change', function(evt, params) {
+                //                                recalcHotel();
+                //                                recalcDistance();
+                //                            });
+                //                        });
+
+                //                jQuery(".hotel-select").map(
+                //                        function() {
+                //                            var $el = $(this);
+                //                            $el.empty(); // remove old options
+                //                            $.each(places, function(key, value) {
+                //                                $el.append($("<option></option>")
+                //                                        .attr("value", key).text(value.hotel.name + "(" + value.city + ")"));
+                //                            });
+                //                            $el.chosen({'width': '100%', 'white-space': 'nowrap'});
+                //                        });
+
+                jQuery('#datepicker').datepicker({dateFormat: 'dd. MM yy'});
+                // Basic Slider
+                //$('.einheiten').map(
+                //        function() {
+                //            $(this).spinner({'value': 0, 'max' : 9, 'min' : 0});
+                //        });
+
+                $('.einheiten').map(
+                        function() {
+                            $(this).mask('9');
+                        });
+            });
+
+        </script>
+    </body>
+</html>

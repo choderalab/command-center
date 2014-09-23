@@ -1,0 +1,11 @@
+{
+  "name": "ereloon",
+  "version": "0.0.0",
+  "dependencies": {
+    "knockoutjs" : "latest",
+    "sammy" : "latest",
+    "autofill-event" : "latest",
+    "moment" : "latest",
+    "director": "~1.2.0"
+  }
+}

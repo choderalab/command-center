@@ -1,0 +1,371 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement xmlns="http://tempuri.org/RuntimeMessagesDS.xsd">
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Online.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:10:02.8603712-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device Mode</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has been started in Normal mode.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:08:25.7558172-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Starting.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:08:25.7468166-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Offline.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:08:24.2827329-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "CytomatHotel" has changed state to Stopping.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:08:24.2697322-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Batch Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The batch "Work Unit 264\Batch 1" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:07:45.0984917-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Waiting to Unload</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 264" is waiting to be unloaded.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:07:45.0844909-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Complete</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details>Elapsed wall clock time: 00:11:38.0439258</Details>
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 264" has completed.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T19:07:45.0814907-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>The Thermo Scientific Mover "Orbitor" Transfer operation did not complete.</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Error</Severity>
+    <Area />
+    <Details>Recovery level: 1, Recoverable: True
+Command: Transfer(Hotel_2:nest[1],Regrip:landscape)</Details>
+    <AllowCancellation />
+    <HelpText>More about resolving Thermo Scientific Mover errors...</HelpText>
+    <ExtensionData />
+    <Description>One or more errors occurred while moving the plate Work Unit 264\Batch 1\Iteration 0001\4ti0381 from Nests:Nest 1 of Hotel_2 to the Nest of the Regrip:
+
+Error on motor 0: Drive power undervoltage.
+Power is off; please check that the Motor On button is lit.
+
+Container(s) involved in this operation:
+	- plate Work Unit 264\Batch 1\Iteration 0001\4ti0381</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:58:00.1960372-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Online.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:43.6660917-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device Mode</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has been started in Normal mode.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:40.6329182-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Starting.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:40.6069167-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "DataMiner" has changed state to Online.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:38.4837953-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device Mode</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "DataMiner" has been started in Normal mode.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:38.460794-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "DataMiner" has changed state to Starting.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:38.4487933-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "DataMiner" has changed state to Offline.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:09.841157-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "DataMiner" has changed state to Stopping.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:57:09.8071551-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Offline.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:56:53.8702436-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Device State</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The device "BarCode" has changed state to Stopping.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:56:53.8472422-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+  <Messages>
+    <Title>Work Unit Started</Title>
+    <Severity xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Information</Severity>
+    <Area />
+    <Details />
+    <AllowCancellation />
+    <ExtensionData />
+    <Description>The work unit "Work Unit 264" has started.</Description>
+    <CreatedTime />
+    <Items />
+    <AreaText />
+    <PostedDate>2014-09-22T18:56:06.5395364-04:00</PostedDate>
+    <StackTrace />
+    <MessageClass />
+    <Id />
+    <Posted />
+    <User>Admin</User>
+  </Messages>
+</DocumentElement>
