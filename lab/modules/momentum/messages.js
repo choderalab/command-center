@@ -44,6 +44,7 @@ function MomentumMessages(viewModel) {
             self.data = data;
 
             self.messages = self.viewModel.messages;
+            self.momentum = self.viewModel.momentum;
 
             for (var key in self.data.messages) {
 
@@ -67,10 +68,10 @@ function MomentumMessages(viewModel) {
 
                 time = Date.parse(m.iso)
 
-                ago = Math.round((Date.now() - time) / 1000.0);
+                // Bad fix for different timezone -4:00                
+                time += 60 * 60 * 4;
 
-                // Bad fix for different timezone -4:00
-                ago -= 60 * 60 * 4;
+                ago = Math.round((Date.now() - time) / 1000.0);
 
                 s = '---';
 
@@ -87,14 +88,29 @@ function MomentumMessages(viewModel) {
                 } else
                     s = dd.getMonth() + '/' + dd.getDate() + " at " + dd.getHours() + ":" + dd.getMinutes()
 
+
+
                 if (exists >= 0) {
                     m = self.messages()[exists];
                     m.ago(s);
                 } else {
                     if (true) {
-                            m.ago = ko.observable(s);
-                            m.time = time;
-                            self.messages.splice(0, 0, m);
+                        console.log(m.device);
+                        existsM = -1;
+                        for (var i = 0; i < self.viewModel.momentum().length; i++) {
+                            if (self.momentum()[i].label() == m.device) {
+                                existsM = i;
+                            }
+                        }
+                        console.log(existsM);
+                        if (existsM >= 0) {
+                            self.momentum()[existsM].action(m.title);
+                            self.momentum()[existsM].action_time = time;
+                        }
+
+                        m.ago = ko.observable(s);
+                        m.time = time;
+                        self.messages.splice(0, 0, m);
                         if (self.messages().length >= 100) {
                             self.messages.splice(100);
                         }

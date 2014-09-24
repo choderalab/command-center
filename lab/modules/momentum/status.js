@@ -89,13 +89,19 @@ function MomentumData(viewModel) {
                 if (exists >= 0) {
                     self.momentum()[exists].status(self.data.devices[key].state);
                     self.momentum()[exists].time(s);                    
-                    self.momentum()[exists].badge(badge);                    
+                    self.momentum()[exists].badge(badge);       
+                    console.log(Date.now() - self.momentum()[exists].action_time);
+                    if ((Date.now() - self.momentum()[exists].action_time) > 10 * 1000) {
+                        self.momentum()[exists].action('');
+                    }                    
                 } else {
                     self.momentum.push({
                         'label': ko.observable(key),
                         'status': ko.observable(self.data.devices[key].state),
                         'time' : ko.observable(s),
-                        'badge' : ko.observable(badge)
+                        'badge' : ko.observable(badge),
+                        'action' : ko.observable(''),
+                        'action_time' : 0
                     });
                 }
             }

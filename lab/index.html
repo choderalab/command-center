@@ -7,10 +7,10 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 
-        <title>Ereloon Abrechnungs Generator V1.0 Beta</title>
+        <title>Choderalab Status Screen</title>
 
         <link href="css/style.default.css" rel="stylesheet">
-        <link href="css/style.inverse.css" rel="stylesheet">
+        <link href="css/style.inverse.css" rel="stylesheet"> 
         <link rel="stylesheet" href="css/jquery.tagsinput.css" />
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,6 +22,7 @@
 
     <body style="overflow: auto;" class="horizontal-menu">
         <div class="text-center " style="position: absolute; left: 0px; top: 0px; ">
+            <!--
             <object type="application/x-shockwave-flash" data="//cdn1.dropcam.com/flash/video.swf?2037cd0985" width="1920" height="1080">
                 <param name="wmode" value="opaque">
                 <param name="bgcolor" value="#e3eaed">
@@ -30,29 +31,21 @@
                 <param name="volume" value="0">
                 <param name="flashvars" value="uuid=8488b78360ba456d95ac24a9ae3f7c57&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;sessionToken=88b84a6fb8344d85882996deb1bcf6e08e7bf34e3c073f95fec53d5d3c49926b1412ae3b&amp;liveStreamHost=oculus235-vir.dropcam.com:1935&amp;recordedStreamHost=oculus235-vir.dropcam.com:1935&amp;talkbackStreamHost=stream-delta.dropcam.com:443&amp;nexusApiUrlBase=https://nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8">
             </object>        
+            -->
         </div>
 
         <section>
-            <div class="leftpanel">
-
-                <div class="logopanel">
-                    <h1><span>[</span> bracket <span>]</span></h1>
-                </div><!-- logopanel -->
-            </div><!-- leftpanel -->
             <div class="mainpanel">
 
                 <div class="headerbar">
                     <div class="header-left">
 
-                        <div class="logopanel">
-                            <h1><span>[</span> CHODERALAB <span>]</span></h1>
-                        </div><!-- logopanel -->
 
                         <div class="topnav">
                             <a class="menutoggle"><i class="fa fa-bars"></i></a>
 
                             <ul class="nav nav-horizontal">
-                                <li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
+                                <li class="active"><a href="index.html"><i class="fa fa-flask fa-2x" style="margin-top:-8px;"></i> <span>CHODERALAB STATUS MONITOR</span></a></li>
                                 <li><a href="email.html"><span class="pull-right badge badge-success">2</span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li>
                                 <li class="nav-parent"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-list"></i> More <span class="caret"></span></a>
                                     <ul class="dropdown-menu children">
@@ -63,13 +56,6 @@
                                         <li><a href="wysiwyg.html"><i class="fa fa-caret-right"></i> Text Editor</a></li>
                                         <li><a href="code-editor.html"><i class="fa fa-caret-right"></i> Code Editor</a></li>
                                     </ul>
-                                </li>
-                                <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-search"></i></a>
-                                    <div class="dropdown-menu">
-                                        <form action="index.html" method="post">
-                                            <input type="text" class="form-control" name="keyword" placeholder="Search here..." />
-                                        </form>
-                                    </div>
                                 </li>
                             </ul>
                         </div><!-- topnav -->
@@ -98,30 +84,6 @@
                                                 <div class="thumb"><a href=""><img src="images/photos/user1.png" alt="" /></a></div>
                                                 <div class="desc">
                                                     <h5><a href="">Draniem Daamul (@draniem)</a> <span class="badge badge-success">new</span></h5>
-                                                </div>
-                                            </li>
-                                            <li class="new">
-                                                <div class="thumb"><a href=""><img src="images/photos/user2.png" alt="" /></a></div>
-                                                <div class="desc">
-                                                    <h5><a href="">Zaham Sindilmaca (@zaham)</a> <span class="badge badge-success">new</span></h5>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="thumb"><a href=""><img src="images/photos/user3.png" alt="" /></a></div>
-                                                <div class="desc">
-                                                    <h5><a href="">Weno Carasbong (@wenocar)</a></h5>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="thumb"><a href=""><img src="images/photos/user4.png" alt="" /></a></div>
-                                                <div class="desc">
-                                                    <h5><a href="">Nusja Nawancali (@nusja)</a></h5>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="thumb"><a href=""><img src="images/photos/user5.png" alt="" /></a></div>
-                                                <div class="desc">
-                                                    <h5><a href="">Lane Kitmari (@lane_kitmare)</a></h5>
                                                 </div>
                                             </li>
                                             <li class="new"><a href="">See All Users</a></li>
@@ -284,41 +246,39 @@
                     <!--  /ko -->
                     <div class="col-sm-12" style="text-align:center;">
                         <!-- ko foreach: momentum_reduced -->                    
-                        <div data-bind="css: 'panel-' + badge() + ''" class="panel panel-stat" style="width: 128px; display: inline-block;">
-                            <div class="panel-heading">
+                        <div data-bind="css: 'panel-' + badge() + ''" class="panel panel-stat" style="width: 140px; display: inline-block; vertical-align: top;">
+                            <div class="panel-heading" style="padding-top: 4px;">
                                 <div class="stat">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-sm-12" style="margin: 0px">
                                             <small class="stat-label" data-bind="text: time"></small>
                                             <h5 data-bind="text: label"></h5>
                                         </div>
                                     </div><!-- row -->
-                                    <!--
-                                                                        <div class="row">
-                                                                            <div class="col-xs-12">
-                                                                                <small class="stat-label" data-bind="text: time"></small>
-                                                                            </div>
-                                                                        </div><!-- row -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <span class="badge-info badge" data-bind="text: action"></span>
+                                        </div>
+                                    </div><!-- row -->
 
                                 </div><!-- stat -->
 
                             </div><!-- panel-heading -->
                         </div><!-- panel -->
                         <!--  /ko -->
-
                     </div> ̰
 
 
                     <div class="row">
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs hidden">
+                        <ul class="nav nav-tabs">
                             <li><a href="#home" data-toggle="tab"><strong>Home</strong></a></li>
                             <li><a href="#momentum" data-toggle="tab"><strong>Status</strong></a></li>
                             <li class="active"><a href="#messages" data-toggle="tab"><strong>Messages <span class="label label-danger" data-bind="text: new_messages"></span></strong></a></li>
                         </ul>
 
                         <!-- Tab panes -->
-                        <div class="tab-content mb30 hidden">
+                        <div class="tab-content mb30">
                             <div class="tab-pane" id="home">
 
                                 <h4 class="dark">It has become appallingly obvious that our technology has exceeded our humanity. &nbsp;<small>- Albert Einstein</small></h4>
