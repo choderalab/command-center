@@ -107,11 +107,12 @@ function AppViewModel() {
                     return left.time == right.time ? 0 : (left.time > right.time ? -1 : 1);
                 });
     });
-    self.momentum_reduced = ko.computed(function () {
+    self.momentum_reduced = ko.computed({read: function () {
         return ko.utils.arrayFilter(self.momentum(), function(prod) {
                 removeArr = ['ContainerDataDriver', 'DataMiner', 'FileManager', 'PlateLoc', 'Waste', 'MomentumOperator', 'FreeNest'];
                 return !(removeArr.indexOf(prod.label()) > -1);
             });
+    }
     });
     self.partMessages = ko.computed(function () {
         var start = 0;

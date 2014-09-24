@@ -74,7 +74,7 @@ function MomentumData(viewModel) {
                 
                 if (ago < 60) {
                     s = ago + " secs";
-                    s = "< 1 min"
+//                    s = "< 1 min"
                 } else if (ago < 60*60) {
                     s = Math.round(ago / 60) + " mins";
                 } else {
@@ -92,8 +92,10 @@ function MomentumData(viewModel) {
                     self.momentum()[exists].time(s);                    
                     self.momentum()[exists].badge(badge);       
 //                    console.log(Date.now() - self.momentum()[exists].action_time);
-                    if ((self.momentum()[exists].action_time != '') &&((Date.now() - self.momentum()[exists].action_time)/1000.0 > 15)) {
-                        self.momentum()[exists].action('');
+                    time_ago = (Date.now() - self.momentum()[exists].action_time)/1000.0;
+                    if ((self.momentum()[exists].action() != '[ --- ]') &&(time_ago > 15)) {                        
+                        console.log('Cleared ' + self.momentum()[exists].label() + ' time ago : ' + time_ago + ' from ' + self.momentum()[exists].action() );
+                          self.momentum()[exists].action('[ --- ]');
 //                        console.log((Date.now() - self.momentum()[exists].action_time) / 1000.0 - 4*60*60);
                     }                    
                 } else {
@@ -102,8 +104,8 @@ function MomentumData(viewModel) {
                         'status': ko.observable(self.data.devices[key].state),
                         'time' : ko.observable(s),
                         'badge' : ko.observable(badge),
-                        'action' : ko.observable(''),
-                        'action_time' : 0
+                        'action' : ko.observable('[ --- ]'),
+                        'action_time' : ko.observable(0.0)
                     });
                 }
             }

@@ -73,8 +73,6 @@ function MomentumMessages(viewModel) {
 
                 ago = Math.round((Date.now() - time) / 1000.0) ;
 
-                console.log(ago);
-
                 s = '---';
 
                 dd = new Date(time);
@@ -90,8 +88,6 @@ function MomentumMessages(viewModel) {
                 } else
                     s = dd.getMonth() + '/' + dd.getDate() + " at " + dd.getHours() + ":" + dd.getMinutes()
 
-
-
                 if (exists >= 0) {
                     m = self.messages()[exists];
                     m.ago(s);
@@ -103,10 +99,10 @@ function MomentumMessages(viewModel) {
                                 existsM = i;
                             }
                         }
-                        if ((existsM >= 0)&&(ago<15)) {
-                            console.log(m.device);
-
-                            self.momentum()[existsM].action(m.title);
+                        if ((existsM >= 0)&&(ago<25)) {
+                            console.log(m.device + ' (' + ago + 's)');
+                            self.momentum()[existsM].action('[ --- ]');
+                            self.momentum()[existsM].action(m.title + ' (' + Math.round(m.duration) + 's)');
                             self.momentum()[existsM].action_time = time;
                         }
 
@@ -119,6 +115,8 @@ function MomentumMessages(viewModel) {
                     }
                 }
             }
+            self.momentum.valueHasMutated();
+
 
             if (self.pollingInterval > 0) {
                 setTimeout(self.update, self.pollingInterval);

@@ -21,7 +21,7 @@
     </head>
 
     <body style="overflow: auto;" class="horizontal-menu">
-        <div class="text-center " style="position: absolute; left: 0px; top: 0px; ">
+        <div class="text-center" style="position: absolute; left: 0px; top: 0px; ">
             <object type="application/x-shockwave-flash" data="//cdn1.dropcam.com/flash/video.swf?13fb115c2a" width="1920" height="1072">
                 <param name="wmode" value="opaque">
                 <param name="bgcolor" value="#e3eaed">
@@ -242,6 +242,7 @@
                     <!-- ko foreach: momentum_reduced -->
                     <!--                    <a data-bind="css: 'btn-' + badge() + '', text: label"  class="btn"></a> -->
                     <!--  /ko -->
+                    <span data-bind="text: momentum.length > 0 ? momentum()[0].action : ''"></span>
                     <div class="col-sm-12" style="text-align:center;">
                         <!-- ko foreach: momentum_reduced -->                    
                         <div data-bind="css: 'panel-' + badge() + ''" class="panel panel-stat" style="width: 136px; display: inline-block; vertical-align: top;">
