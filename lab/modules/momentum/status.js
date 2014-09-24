@@ -93,7 +93,7 @@ function MomentumData(viewModel) {
                     self.momentum()[exists].badge(badge);       
 //                    console.log(Date.now() - self.momentum()[exists].action_time);
                     time_ago = (Date.now() - self.momentum()[exists].action_time)/1000.0;
-                    if ((self.momentum()[exists].action() != '[ --- ]') &&(time_ago > 15)) {                        
+                    if ((self.momentum()[exists].action() != '[ --- ]') &&(time_ago > 10)) {                        
                         console.log('Cleared ' + self.momentum()[exists].label() + ' time ago : ' + time_ago + ' from ' + self.momentum()[exists].action() );
                           self.momentum()[exists].action('[ --- ]');
 //                        console.log((Date.now() - self.momentum()[exists].action_time) / 1000.0 - 4*60*60);
