@@ -2,7 +2,8 @@ function MomentumData(viewModel) {
     var self = this;
 
     self.viewModel = viewModel;
-    self.uri = 'http://172.30.1.251:8000/status?callback=?';
+//    self.uri = 'http://172.21.198.202:8000/status?callback=?';    // Use when port 8000 on Momentum machine is activated
+    self.uri = 'http://172.30.1.72:8000/status?callback=?';
     self.data = {};
     self.username = "Jan";
     self.password = "password";
@@ -90,9 +91,10 @@ function MomentumData(viewModel) {
                     self.momentum()[exists].status(self.data.devices[key].state);
                     self.momentum()[exists].time(s);                    
                     self.momentum()[exists].badge(badge);       
-                    console.log(Date.now() - self.momentum()[exists].action_time);
-                    if ((Date.now() - self.momentum()[exists].action_time) > 10 * 1000) {
+//                    console.log(Date.now() - self.momentum()[exists].action_time);
+                    if ((self.momentum()[exists].action_time != '') &&((Date.now() - self.momentum()[exists].action_time) > (20  + 4*60*60)*1000)) {
                         self.momentum()[exists].action('');
+//                        console.log((Date.now() - self.momentum()[exists].action_time) / 1000.0 - 4*60*60);
                     }                    
                 } else {
                     self.momentum.push({

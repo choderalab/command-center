@@ -2,7 +2,7 @@ function MomentumMessages(viewModel) {
     var self = this;
 
     self.viewModel = viewModel;
-    self.uri = 'http://172.30.1.251:8000/messages?callback=?';
+    self.uri = 'http://172.30.1.72:8000/messages?callback=?';
 //    self.uri = 'http://localhost:8000/messages?callback=?';
 
     self.data = {};
@@ -69,13 +69,15 @@ function MomentumMessages(viewModel) {
                 time = Date.parse(m.iso)
 
                 // Bad fix for different timezone -4:00                
-                time += 60 * 60 * 4;
+                time += 60 * 60 * 4 * 1000;
 
-                ago = Math.round((Date.now() - time) / 1000.0);
+                ago = Math.round((Date.now() - time) / 1000.0) ;
+
+                console.log(ago);
 
                 s = '---';
 
-                dd = new Date(Date.parse(m.iso) + 60 * 60 * 4 * 1000);
+                dd = new Date(time);
                 td = new Date(Date.now());
 
 
@@ -95,15 +97,15 @@ function MomentumMessages(viewModel) {
                     m.ago(s);
                 } else {
                     if (true) {
-                        console.log(m.device);
                         existsM = -1;
                         for (var i = 0; i < self.viewModel.momentum().length; i++) {
                             if (self.momentum()[i].label() == m.device) {
                                 existsM = i;
                             }
                         }
-                        console.log(existsM);
-                        if (existsM >= 0) {
+                        if ((existsM >= 0)&&(ago<15)) {
+                            console.log(m.device);
+
                             self.momentum()[existsM].action(m.title);
                             self.momentum()[existsM].action_time = time;
                         }

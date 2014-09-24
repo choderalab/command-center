@@ -10,7 +10,7 @@
         <title>Choderalab Status Screen</title>
 
         <link href="css/style.default.css" rel="stylesheet">
-        <link href="css/style.inverse.css" rel="stylesheet"> 
+<!--        <link href="css/style.inverse.css" rel="stylesheet">  -->
         <link rel="stylesheet" href="css/jquery.tagsinput.css" />
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,16 +22,14 @@
 
     <body style="overflow: auto;" class="horizontal-menu">
         <div class="text-center " style="position: absolute; left: 0px; top: 0px; ">
-            <!--
-            <object type="application/x-shockwave-flash" data="//cdn1.dropcam.com/flash/video.swf?2037cd0985" width="1920" height="1080">
+            <object type="application/x-shockwave-flash" data="//cdn1.dropcam.com/flash/video.swf?13fb115c2a" width="1920" height="1072">
                 <param name="wmode" value="opaque">
                 <param name="bgcolor" value="#e3eaed">
                 <param name="allowFullScreen" value="true">
                 <param name="allowScriptAccess" value="always">
                 <param name="volume" value="0">
-                <param name="flashvars" value="uuid=8488b78360ba456d95ac24a9ae3f7c57&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;sessionToken=88b84a6fb8344d85882996deb1bcf6e08e7bf34e3c073f95fec53d5d3c49926b1412ae3b&amp;liveStreamHost=oculus235-vir.dropcam.com:1935&amp;recordedStreamHost=oculus235-vir.dropcam.com:1935&amp;talkbackStreamHost=stream-delta.dropcam.com:443&amp;nexusApiUrlBase=https://nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8">
+                <param name="flashvars" value="uuid=8488b78360ba456d95ac24a9ae3f7c57&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;sessionToken=a890c681398840099d33f9e6ce669186d601629eed3dab534ebfe2ebc8c7d8e087e9b590&amp;liveStreamHost=oculus235-vir.dropcam.com:1935&amp;recordedStreamHost=oculus235-vir.dropcam.com:1935&amp;talkbackStreamHost=stream-delta.dropcam.com:443&amp;nexusApiUrlBase=https://nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8">
             </object>        
-            -->
         </div>
 
         <section>
@@ -45,8 +43,8 @@
                             <a class="menutoggle"><i class="fa fa-bars"></i></a>
 
                             <ul class="nav nav-horizontal">
-                                <li class="active"><a href="index.html"><i class="fa fa-flask fa-2x" style="margin-top:-8px;"></i> <span>CHODERALAB STATUS MONITOR</span></a></li>
-                                <li><a href="email.html"><span class="pull-right badge badge-success">2</span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li>
+                                <li class="active"><a href="javascript: document.documentElement.webkitRequestFullScreen();"><i class="fa fa-flask fa-2x" style="margin-top:-8px;"></i> <span>CHODERALAB STATUS MONITOR</span></a></li>
+                                <li><a><span class="pull-right badge badge-success">2</span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li>
                                 <li class="nav-parent"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-list"></i> More <span class="caret"></span></a>
                                     <ul class="dropdown-menu children">
                                         <li><a href="general-forms.html"><i class="fa fa-caret-right"></i> General Forms</a></li>
@@ -246,7 +244,7 @@
                     <!--  /ko -->
                     <div class="col-sm-12" style="text-align:center;">
                         <!-- ko foreach: momentum_reduced -->                    
-                        <div data-bind="css: 'panel-' + badge() + ''" class="panel panel-stat" style="width: 140px; display: inline-block; vertical-align: top;">
+                        <div data-bind="css: 'panel-' + badge() + ''" class="panel panel-stat" style="width: 136px; display: inline-block; vertical-align: top;">
                             <div class="panel-heading" style="padding-top: 4px;">
                                 <div class="stat">
                                     <div class="row">
@@ -266,10 +264,10 @@
                             </div><!-- panel-heading -->
                         </div><!-- panel -->
                         <!--  /ko -->
-                    </div> ̰
+                    </div>
 
 
-                    <div class="row">
+                    <div class="row hidden">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
                             <li><a href="#home" data-toggle="tab"><strong>Home</strong></a></li>
@@ -453,7 +451,7 @@
                                                 <!-- ko foreach: partMessages -->
                                                 <li style="line-height: 15px;">
                                                     <small class="pull-right" data-bind="text: ago()"></small>
-                                                    <h4 class="sender"><span data-bind="text: title"></span></h4>
+                                                    <h4 class="sender"><span data-bind="text: title"></span> <span class="badge badge-primary" data-bind="text: device"></span></h4>
                                                     <small data-bind="text: description"></small>
                                                     <h4 class="sender"><span data-bind="text: selected"></span></h4>
                                                 </li>
