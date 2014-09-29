@@ -3,7 +3,7 @@ function MomentumMessages(viewModel) {
 
     self.viewModel = viewModel;
     self.uri = 'http://172.30.1.72:8000/messages?callback=?';
-//    self.uri = 'http://localhost:8000/messages?callback=?';
+    self.uri = 'http://localhost:8000/messages?callback=?';
 
     self.data = {};
     self.username = "Jan";

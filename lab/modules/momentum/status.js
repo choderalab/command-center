@@ -2,8 +2,8 @@ function MomentumData(viewModel) {
     var self = this;
 
     self.viewModel = viewModel;
-//    self.uri = 'http://172.21.198.202:8000/status?callback=?';    // Use when port 8000 on Momentum machine is activated
-    self.uri = 'http://172.30.1.72:8000/status?callback=?';
+    self.uri = 'http://localhost:8000/messages?callback=?';
+//    self.uri = 'http://172.30.1.72:8000/status?callback=?';
     self.data = {};
     self.username = "Jan";
     self.password = "password";
