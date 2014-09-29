@@ -98,7 +98,7 @@ the current status of the robot.
 So we have the following project structure
 
 ```
-monitor/
+lab/
 ├── css/
 │   ├── bootstrap.css
 │   ├── bootstrap.min.css
@@ -106,8 +106,8 @@ monitor/
 │   └── bootstrap-theme.min.css
 ├── js/
 │   ├── app.js
-│   ├── app.plugins.js
-│   └── app.components.js
+│   ├── model.js
+│   └── data.js
 ├── components/
 │   ├── [ all bower components ]
 │   └── ...
@@ -119,10 +119,11 @@ monitor/
 │   ├── cluster/
 │   │   └── cluster.js
 │   ├── momentum/
+│   │   ├── ip.js
 │   │   ├── status.js
 │   │   └── momentum.js
-│   ├── calendar/
-│   │   └── calendar.htm
+│   ├── temperature/
+│   │   └── temperature.js
 │   └── ...
 ├── bower.json
 ├── README.md
@@ -136,16 +137,4 @@ We have the following modules installed:
 - cluster
 - dropcam ( so far running, but without an external module )
 - momentum
-- calendar
-
-What is exactly in the module html file? Can we design different views in a single html or do we need multiple ones?
-
-Is this maybe too complicated and too modular to setup? It is nice but not necessary. Since we will have several data sources
-and mixed views it might be better to keep this separate. That means we have (1) views that display the shared data and (2) sources can change the data
-
-Together with knockout.js this would be to have html code that is bound to knockout observables and we have independent code that can alter this.
-How to define this global datastructures?
-
-E.g. We have several sources that can add to the timeline. The timeline has a view, maybe there exist several ones. I seems that a view needs only a single
-data object, while a source can contribute to several data objects. In our case we are not going to save data only to display. In the case where we would
-edit the data this data must be linked uniquely to a place where it is stored. 
+- temperature
