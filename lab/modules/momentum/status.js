@@ -2,7 +2,7 @@ function MomentumData(viewModel) {
     var self = this;
 
     self.viewModel = viewModel;
-    self.uri = momentum_ip_address + '/status?callback=?';
+    self.uri = momentum_ip_address + 'status?callback=?';
     self.data = {};
     self.username = "Jan";
     self.password = "password";
