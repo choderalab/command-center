@@ -66,3 +66,4 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
+/lab/modules/momentum/ip.js
