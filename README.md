@@ -5,41 +5,45 @@ Home of the ChoderaLab status monitor
 
 # Chodera Lab Status Monitor (CLSM)
 
-The main file of the status monitor is the index.html file in the monitor folder. This does not need a server running.
-It tries to connect to all the serves and there is an example for different types of servers. 
+The main file of the status monitor is the index.html file in the monitor folder. This does not need a server running. It tries to connect to all the serves and there is an example for different types of servers. 
 
-One for a python server that uses rest and serves a jsonp file which is actually a json array (looks like a python array) disguised inside a javascript 
-function call, so that it can be loaded as a javascript file. This way the restrictions on loading resources from other
-ports than the one the website is loaded from can be used. 
+One for a python server that uses rest and serves a jsonp file which is actually a json array (looks like a python array) disguised inside a javascript function call, so that it can be loaded as a javascript file. This way the restrictions on loading resources from other ports than the one the website is loaded from can be used. I think there is a simpler way using enabling the server to accept cross-site requests, but I could not get it to work.
 
-The second uses websocket and runs a javascript nodejs server, which is not recommended due to the same problem mentioned above and I could not
-solve this. It works but has some restrictions on the place the server can run.
+The second uses websocket and runs a javascript nodejs server, which is not recommended due to the same problem mentioned above and I could not solve this. It works but has some restrictions on the place the server can run. I leave it there as an example but will not use it
 
-The third is a rest server using php running on port 80. It needs a server able to run the php scripts and this works if the same server is also
-delivering the website itself, hence both come from the same address and port and everything is fine. 
+The third is a rest server using php running on port 80. It needs a server able to run the php scripts and this works if the same server is also delivering the website itself, hence both come from the same address and port and everything is fine. Right now I used it to access the cluster (before the move) and haven't tried it since.
 
-So far it seems to me that only jsonp is what we want since this way we can have a server running on a different machine in the network on an
-arbitrary port. And data can in python easily be transferre to json format. The example should explain this.
+The main python server that need to be run is in backend/rest-python-momentum-status and just run the server.py file on the windows/momentum machine. This opens a rest server at port 8000 and allows the two get commands 'status' and 'messages' so far
 
 To try this you can run the python server by running
 
 ```
-python [path-to]/backend/rest-python-example/api/server.py
+python [path-to]/backend/rest-python-momentum-status/api/server.py
 ```
 
-which starts the server. Then open the website at
+which starts the server. 
+
+To check the server working correctly open
 
 ```
-open [path-to]/monitor/index.html
+http://localhost:8000/status?callback=fnc
+```
+
+where the callback is necessary for the jsonp.
+
+Then open the website at
+
+```
+[path-to]/lab/index.html
 ```
 
 The main files you need to look at are
 ```
-monitor/index.html                           - main html code of the website
-monitor/js/app.js                            - main javascript code to run the website. Uses code from the modules
-monitor/modules/momentum/status.js           - momentum javascript code. It accesses the server.py on port 9000 and stores the data
-
-backend/rest-python-example/api/server.py    - python script to run the rest/jsonp server
+lab/index.html                                       - main html code of the website
+lab/js/app.js                                        - main javascript code to run
+lab/modules/momentum/status.js                       - momentum javascript code
+lab/modules/momentum/status.js                       - momentum javascript code
+backend/rest-python-momentum-status/api/server.py    - python script to run the rest/jsonp server
 ```
 
 The code is still very messy since I needed to try a lot of things to make this work. Still the ```server.py``` works on the momentum
@@ -94,7 +98,7 @@ the current status of the robot.
 So we have the following project structure
 
 ```
-monitor/
+lab/
 ├── css/
 │   ├── bootstrap.css
 │   ├── bootstrap.min.css
@@ -102,8 +106,8 @@ monitor/
 │   └── bootstrap-theme.min.css
 ├── js/
 │   ├── app.js
-│   ├── app.plugins.js
-│   └── app.components.js
+│   ├── model.js
+│   └── data.js
 ├── components/
 │   ├── [ all bower components ]
 │   └── ...
@@ -115,10 +119,11 @@ monitor/
 │   ├── cluster/
 │   │   └── cluster.js
 │   ├── momentum/
+│   │   ├── ip.js
 │   │   ├── status.js
 │   │   └── momentum.js
-│   ├── calendar/
-│   │   └── calendar.htm
+│   ├── temperature/
+│   │   └── temperature.js
 │   └── ...
 ├── bower.json
 ├── README.md
@@ -132,16 +137,4 @@ We have the following modules installed:
 - cluster
 - dropcam ( so far running, but without an external module )
 - momentum
-- calendar
-
-What is exactly in the module html file? Can we design different views in a single html or do we need multiple ones?
-
-Is this maybe too complicated and too modular to setup? It is nice but not necessary. Since we will have several data sources
-and mixed views it might be better to keep this separate. That means we have (1) views that display the shared data and (2) sources can change the data
-
-Together with knockout.js this would be to have html code that is bound to knockout observables and we have independent code that can alter this.
-How to define this global datastructures?
-
-E.g. We have several sources that can add to the timeline. The timeline has a view, maybe there exist several ones. I seems that a view needs only a single
-data object, while a source can contribute to several data objects. In our case we are not going to save data only to display. In the case where we would
-edit the data this data must be linked uniquely to a place where it is stored. 
+- temperature
