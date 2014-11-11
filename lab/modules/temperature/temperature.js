@@ -12,7 +12,7 @@ function TemperatureData(viewModel) {
     self.uri = 'http://localhost:8001/status?callback=?';
     self.username = "Jan";
     self.password = "password";
-    self.pollingInterval = 5000;
+    self.pollingInterval = 10000;
 
     self.ajax = function(method, data) {
         var request = {

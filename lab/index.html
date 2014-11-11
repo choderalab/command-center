@@ -10,7 +10,7 @@
         <title>Choderalab Status Screen</title>
 
         <link href="css/style.default.css" rel="stylesheet">
-<!--        <link href="css/style.inverse.css" rel="stylesheet">  -->
+        <!--        <link href="css/style.inverse.css" rel="stylesheet">  -->
         <link rel="stylesheet" href="css/jquery.tagsinput.css" />
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -266,7 +266,55 @@
                         </div><!-- panel -->
                         <!--  /ko -->
                     </div>
+                    <div class="col-sm-4 col-md-2">
+                        <div class="panel panel-success panel-stat">
+                            <div class="panel-heading">
 
+                                <div class="stat">
+                                    <div class="row">
+                                        <div class="col-xs-4" style="text-align:center;">
+                                            <span class="wi-thermometer fa-5x"></span>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <small class="stat-label">Keshari Freezer</small>
+                                            <h1 data-bind="text: temperature"></h1>
+                                        </div>
+                                    </div><!-- row -->
+
+                                    <div class="mb15"></div>
+
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <small class="stat-label">Min / Max</small>
+                                            <h4> - / - &deg;C</h4>
+                                        </div>
+
+                                        <div class="col-xs-6">
+                                            <small class="stat-label"></small>
+                                            <h4></h4>
+                                        </div>
+                                    </div><!-- row -->
+                                </div><!-- stat -->
+
+                            </div><!-- panel-heading -->
+                        </div><!-- panel -->
+                    </div><!-- col-sm-6 -->
+                    <div class="col-sm-6 col-md-3">
+
+                            <div class="panel-body" style="overflow: auto;">
+                                <ul>
+                                    <!-- ko foreach: partMessages -->
+                                    <li style="line-height: 15px; list-style-type: none;" class="mb20">
+                                        <span class="badge badge-primary" data-bind="text: device"></span>
+                                        <small class="pull-right" data-bind="text: ago()"></small>
+                                        <h5 class="sender"><span data-bind="text: title"></span></h5>
+                                        <small data-bind="text: description"></small><br />
+<!--                                        <small>--&gt; <span data-bind="text: selected"></span></small> -->
+                                    </li>
+                                    <!-- /ko -->
+                                </ul>
+                            </div><!-- panel-body -->
+                    </div>
 
                     <div class="row hidden">
                         <!-- Nav tabs -->
@@ -281,39 +329,6 @@
                             <div class="tab-pane" id="home">
 
                                 <h4 class="dark">It has become appallingly obvious that our technology has exceeded our humanity. &nbsp;<small>- Albert Einstein</small></h4>
-                                <div class="col-sm-6 col-md-3">
-                                    <div class="panel panel-success panel-stat">
-                                        <div class="panel-heading">
-
-                                            <div class="stat">
-                                                <div class="row">
-                                                    <div class="col-xs-4" style="text-align:center;">
-                                                        <span class="wi-thermometer fa-5x"></span>
-                                                    </div>
-                                                    <div class="col-xs-8">
-                                                        <small class="stat-label">Keshari Freezer</small>
-                                                        <h1 data-bind="text: temperature"></h1>
-                                                    </div>
-                                                </div><!-- row -->
-
-                                                <div class="mb15"></div>
-
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <small class="stat-label">Min / Max</small>
-                                                        <h4> - / - &deg;C</h4>
-                                                    </div>
-
-                                                    <div class="col-xs-6">
-                                                        <small class="stat-label"></small>
-                                                        <h4></h4>
-                                                    </div>
-                                                </div><!-- row -->
-                                            </div><!-- stat -->
-
-                                        </div><!-- panel-heading -->
-                                    </div><!-- panel -->
-                                </div><!-- col-sm-6 -->
 
                                 <div class="col-sm-6 col-md-3">
                                     <div class="panel panel-danger panel-stat">
@@ -497,7 +512,7 @@
 
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-        
+
         <script src="modules/momentum/ip.js"></script>
         <script src="modules/momentum/status.js"></script>
         <script src="modules/momentum/messages.js"></script>

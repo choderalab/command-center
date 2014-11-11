@@ -2,12 +2,12 @@ function MomentumMessages(viewModel) {
     var self = this;
 
     self.viewModel = viewModel;
-    self.uri = momentum_ip_address + 'status?callback=?';
+    self.uri = momentum_ip_address + 'messages?callback=?';
 
     self.data = {};
     self.username = "Jan";
     self.password = "password";
-    self.pollingInterval = 1000;
+    self.pollingInterval = 2000;
 
     self.messages = self.viewModel.messages;
 
@@ -44,9 +44,8 @@ function MomentumMessages(viewModel) {
 
             self.messages = self.viewModel.messages;
             self.momentum = self.viewModel.momentum;
-
+            
             for (var key in self.data.messages) {
-
                 m = self.data.messages[key];
 
                 exists = -1;
