@@ -14,6 +14,11 @@ from flask_restful import Api
 from modules.momentum import Momentum
 from flask import Flask
 
+# Turn off extensive logging and show only errors
+import logging
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
+
 ##############################################################################
 #| Flask Server Stuff
 ##############################################################################
