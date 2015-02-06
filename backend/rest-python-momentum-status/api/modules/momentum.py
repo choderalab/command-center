@@ -235,7 +235,7 @@ class Momentum(module.Module):
             if len(folder) > 0:
                 file = os.path.join(self.path_to_workunit_folder, folder[0], 'Audit', 'AuditLog.xml')
                 if os.path.isfile(file):
-                    self.workunits |= set([self.workunit])
+                    self.workunits |= set([workunit])
 
         elif title == 'Batch Loaded':
             self.workunit = self._from_quotes(description)
