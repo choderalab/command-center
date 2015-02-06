@@ -48,6 +48,7 @@ class Momentum(module.Module):
         self.workunits = set()
         self.workunit_finished = set()
         self.messages = []
+        self.parse_running = False
 
         # this keeps the character position of a parsed file indexed
         # by the string of the first entry. This way we can keep track of
@@ -123,7 +124,11 @@ class Momentum(module.Module):
         :param elem:
         :return:
         """
-        self.system_state.append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['state'] })
+        
+        ti = self._get_timestamp(elem)
+        
+        if self.system_state[-1]['time'] < ti:
+            self.system_state.append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['state'] })
 
     def _parse_Device(self, elem):
         """
@@ -132,10 +137,14 @@ class Momentum(module.Module):
         :param elem:
         :return:
         """
+        
+        ti = self._get_timestamp(elem)
+        
         if elem.attrib['Device'] not in self.device_state:
-            self.device_state[elem.attrib['Device']] = [{ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['State'] }]
+            self.device_state[elem.attrib['Device']] = [{ 'time' : ti  ,'state' :  elem.attrib['State'] }]
         else:
-            self.device_state[elem.attrib['Device']].append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['State'] })
+            if self.device_state[elem.attrib['Device']][-1]['time'] < ti:
+                self.device_state[elem.attrib['Device']].append({ 'time' :  ti ,'state' :  elem.attrib['State'] })
 
     def _parse_AutomationMessage(self, elem):
         """
@@ -214,18 +223,18 @@ class Momentum(module.Module):
             workunit = self._from_quotes(description)
             single = True
 
-            print 'Work unit to be removed', workunit
+#            print 'Work unit to be removed', workunit
             # mark Workunit to be only read one more time
             # it is finished and will not change anymore!
-            print self.workunits
-            self.workunit_finished |= set([self.workunit])
+#            print self.workunits
+            self.workunit_finished |= set([workunit])
 
             # Remove workunit from tracker
             # Might use a flag to indicate to read complete file once and then treat as closed
 
         elif title == 'Work Unit Loaded':
             workunit = self._from_quotes(description)
-            print 'Work unit added', workunit
+#            print 'Work unit added', workunit
             single = True
             # Add workunit to tracker
             folder_path = os.path.join(self.path_to_workunit_folder)
@@ -374,7 +383,7 @@ class Momentum(module.Module):
 
     def parseFile(self, file_path):
         if os.path.isfile(file_path):
-            print 'parsing file', file_path
+#            print 'parsing file', file_path
             with open (file_path, "r") as myfile:
                 data=myfile.read()
 
@@ -384,9 +393,10 @@ class Momentum(module.Module):
 
                 first_timestamp = it.next().group(1)
 
-                print 'using timestamp', first_timestamp
+#                print 'using timestamp', first_timestamp
 
             if first_timestamp not in self.file_size or len(data) != self.file_size[first_timestamp]:
+                self.file_size[first_timestamp] = len(data)
                 # Either not been visited or changed filesize
 
                 if first_timestamp in self.parse_position:
@@ -404,13 +414,10 @@ class Momentum(module.Module):
                 end_parse = data.rfind('<')
 
                 data = data[parse_start:end_parse]
-
-                print 'parsing',len(data), 'new bytes'
-
-                data = '<MomentumData>' + data + '</MomentumData>'
-
-
-                self.parse_events_new(data)
+                if len(data) > 0:
+                    print 'parsing',len(data), 'new bytes'
+                    data = '<MomentumData>' + data + '</MomentumData>'
+                    self.parse_events_new(data)
 
 
     def readAudit(self):
@@ -419,9 +426,9 @@ class Momentum(module.Module):
 
         :return:
         """
+#        print 'Read', self.parse_running
         if (not self.parse_running):
             self.parse_running = True
-
             # Parse main audit first
             files_to_parse = [ file for file in self.file_list if file in os.listdir(self.path_to_folder) ]
             self.lines_parsed = 0
@@ -432,7 +439,10 @@ class Momentum(module.Module):
                 self.parseFile(file_path)
 
             # Parse open workunits
-            for wl in self.workunits:
+            
+            wlist = set(list(self.workunits))
+            
+            for wl in wlist:
                 self.last_timestamp = datetime.datetime.fromtimestamp(0)
                 folder_path = os.path.join(self.path_to_workunit_folder)
                 folders = os.walk(folder_path).next()[1]
@@ -441,9 +451,10 @@ class Momentum(module.Module):
                 if len(folder) > 0:
                     file_path = os.path.join(self.path_to_workunit_folder, folder[0], 'Audit', 'AuditLog.xml')
                     self.parseFile(file_path)
+             
 
             # check which workunits are not active and remove from parsing queue
-            for wl in self.workunits:
+            for wl in wlist:
                 if wl in self.workunit_finished:
                     print 'finished reading workunit', wl
                     self.workunit_finished.remove(wl)
@@ -451,7 +462,7 @@ class Momentum(module.Module):
 
             self.workunit_finished = set()
 
-            parse_running = False
+        self.parse_running = False
 
     class AuditThread(Thread):
         def __init__(self, scope):
@@ -460,11 +471,12 @@ class Momentum(module.Module):
             self.stopped = self.scope.stop_flag
 
         def run(self):
-            while not self.stopped.wait(5):
-                self.scope.readAudit()
+            self.scope.parse_running = False
+            while not self.stopped.wait(0.1):
+                if not self.scope.parse_running:
+                    self.scope.readAudit()
 
-    parse_running = False;
-
+   
 
     def getStatusAPI(self):
 
@@ -526,10 +538,15 @@ class Momentum(module.Module):
 
 
     def start(self):
-        super(Momentum, self).__init__()
-        self.stop_flag = Event()
-        self.thread = self.AuditThread(self)
-        self.thread.start()
+        if self.thread is None:
+            self.is_running = True
+#            super(Momentum, self).__init__()
+            self.stop_flag = Event()
+            self.thread = self.AuditThread(self)
+            self.thread.start()
+            print 'Started'
+            
 
     def stop(self):
         self.thread.stop()
+        self.thread = None

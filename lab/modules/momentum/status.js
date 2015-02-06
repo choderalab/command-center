@@ -6,7 +6,7 @@ function MomentumData(viewModel) {
     self.data = {};
     self.username = "Jan";
     self.password = "password";
-    self.pollingInterval = 1000;
+    self.pollingInterval = 300;
 
     self.momentum = self.viewModel.momentum;
 
