@@ -5,6 +5,14 @@ Home of the ChoderaLab status monitor
 
 # Chodera Lab Status Monitor (CLSM)
 
+## Quick start notes
+
+- On Momentum computer double click on 'CC-server' on desktop. This runs 'mserver.bat', which runs 'python server.py'.
+
+- On Status Monitor iMac open http://localhost:8888/cc/lab in browser. There is MAMP on this computer, but we don't need it unless we want to use embedded DropCam.
+
+## More full explanation
+
 The main file of the status monitor is the index.html file in the monitor folder. This does not need a server running. It tries to connect to all the serves and there is an example for different types of servers. 
 
 One for a python server that uses rest and serves a jsonp file which is actually a json array (looks like a python array) disguised inside a javascript function call, so that it can be loaded as a javascript file. This way the restrictions on loading resources from other ports than the one the website is loaded from can be used. I think there is a simpler way using enabling the server to accept cross-site requests, but I could not get it to work.
