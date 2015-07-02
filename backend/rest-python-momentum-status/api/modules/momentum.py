@@ -7,11 +7,12 @@ import os
 from lxml import etree, objectify
 from dateutil.parser import parse
 import datetime
+import re
 
 from threading import Thread, Event
-
 import module
 
+# TODO: Make sure that workunit folders are uniquely found
 
 class Momentum(module.Module):
 
@@ -27,7 +28,7 @@ class Momentum(module.Module):
 
         if os.name == 'posix':
             self.path_to_folder = 'data/audit/'
-            self.path_to_workunit_folder = 'data/Work Units/'
+            self.path_to_workunit_folder = 'data/'
         elif os.name == 'nt':
             self.path_to_folder = os.path.join('c:\\','Users','Public','Documents','Thermo Scientific','Momentum', 'Audit')
             self.path_to_workunit_folder = os.path.join('c:\\','Users','Public','Documents','Thermo Scientific','Momentum','Work Units')
@@ -45,7 +46,17 @@ class Momentum(module.Module):
         self.lines_parsed = 0
         self.last_timestamp = datetime.datetime.fromtimestamp(0)
         self.workunits = set()
+        self.workunit_finished = set()
         self.messages = []
+        self.parse_running = False
+
+        # this keeps the character position of a parsed file indexed
+        # by the string of the first entry. This way we can keep track of
+        # all parsed files independent of the filename
+        self.parse_position = dict()
+
+        # this tracks the size of each file to skip non-changed files
+        self.file_size = dict()
 
         self.thread = None
         self.stop_flag = False
@@ -113,7 +124,11 @@ class Momentum(module.Module):
         :param elem:
         :return:
         """
-        self.system_state.append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['state'] })
+        
+        ti = self._get_timestamp(elem)
+        
+        if self.system_state[-1]['time'] < ti:
+            self.system_state.append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['state'] })
 
     def _parse_Device(self, elem):
         """
@@ -122,10 +137,14 @@ class Momentum(module.Module):
         :param elem:
         :return:
         """
+        
+        ti = self._get_timestamp(elem)
+        
         if elem.attrib['Device'] not in self.device_state:
-            self.device_state[elem.attrib['Device']] = [{ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['State'] }]
+            self.device_state[elem.attrib['Device']] = [{ 'time' : ti  ,'state' :  elem.attrib['State'] }]
         else:
-            self.device_state[elem.attrib['Device']].append({ 'time' :  self._get_timestamp(elem) ,'state' :  elem.attrib['State'] })
+            if self.device_state[elem.attrib['Device']][-1]['time'] < ti:
+                self.device_state[elem.attrib['Device']].append({ 'time' :  ti ,'state' :  elem.attrib['State'] })
 
     def _parse_AutomationMessage(self, elem):
         """
@@ -203,24 +222,32 @@ class Momentum(module.Module):
         elif title == 'Work Unit Removed':
             workunit = self._from_quotes(description)
             single = True
+
+#            print 'Work unit to be removed', workunit
+            # mark Workunit to be only read one more time
+            # it is finished and will not change anymore!
+#            print self.workunits
+            self.workunit_finished |= set([workunit])
+
             # Remove workunit from tracker
             # Might use a flag to indicate to read complete file once and then treat as closed
 
         elif title == 'Work Unit Loaded':
             workunit = self._from_quotes(description)
+#            print 'Work unit added', workunit
             single = True
             # Add workunit to tracker
             folder_path = os.path.join(self.path_to_workunit_folder)
             folders = os.walk(folder_path).next()[1]
             # print folders
-            folder = [f for f in folders if f.startswith(workunit)]
+            folder = [f for f in folders if f.startswith(workunit + ' ')]
             if len(folder) > 0:
                 file = os.path.join(self.path_to_workunit_folder, folder[0], 'Audit', 'AuditLog.xml')
                 if os.path.isfile(file):
-                    self.workunits |= set([self.workunit])
+                    self.workunits |= set([workunit])
 
         elif title == 'Batch Loaded':
-            self.workunit = _from_quotes(description)
+            self.workunit = self._from_quotes(description)
             single = True
         else:
             root = etree.fromstring(message_xml)
@@ -321,6 +348,77 @@ class Momentum(module.Module):
                     getattr(self, fnc)(elem)
                 self.last_timestamp = ti
 
+    def parse_events_new(self, xml_string):
+        """
+        Parses all Datum nodes in an Momentum audit.xml file
+
+        :param root:
+        :return:
+        """
+        root = etree.fromstring(xml_string)
+
+        for elem in root.getiterator():
+            if 'Type' in elem.attrib:
+                elem.attrib['Type'] = elem.attrib['Type'][:-5]
+                for attr, val in elem.attrib.iteritems():
+                    i = attr.find('-')
+                    if i >= 0:
+                        elem.attrib[(attr[i+1:])] = val
+                        del elem.attrib[attr]
+
+
+        last_elem = None
+
+        for elem in root.xpath("//Datum"):
+            fnc = '_parse_' + elem.attrib['Type']
+            if hasattr(self, fnc):
+                getattr(self, fnc)(elem)
+
+            last_elem = elem
+
+        if last_elem is not None:
+            ti = self._get_timestamp(last_elem)
+            self.last_timestamp = ti
+
+
+    def parseFile(self, file_path):
+        if os.path.isfile(file_path):
+#            print 'parsing file', file_path
+            with open (file_path, "r") as myfile:
+                data=myfile.read()
+
+                it = re.finditer('-timestamp="([\s\S]*?)"', data)
+
+                # get first timestamp and check, if we have read the file before
+
+                first_timestamp = it.next().group(1)
+
+#                print 'using timestamp', first_timestamp
+
+            if first_timestamp not in self.file_size or len(data) != self.file_size[first_timestamp]:
+                self.file_size[first_timestamp] = len(data)
+                # Either not been visited or changed filesize
+
+                if first_timestamp in self.parse_position:
+                    parse_start = self.parse_position[first_timestamp]
+                else:
+                    # start at first Datum Tag
+                    it = re.finditer('<Datum [\s\S]*?>', data)
+                    parse_start = it.next().start()
+
+                self.parse_position[first_timestamp] = len(data)
+
+                # cut off parsed part and last closing tag '</MomentumData>'
+
+                # strip off last MomentumData
+                end_parse = data.rfind('<')
+
+                data = data[parse_start:end_parse]
+                if len(data) > 0:
+                    print 'parsing',len(data), 'new bytes'
+                    data = '<MomentumData>' + data + '</MomentumData>'
+                    self.parse_events_new(data)
+
 
     def readAudit(self):
         """
@@ -328,37 +426,43 @@ class Momentum(module.Module):
 
         :return:
         """
+#        print 'Read', self.parse_running
         if (not self.parse_running):
             self.parse_running = True
-
-
             # Parse main audit first
             files_to_parse = [ file for file in self.file_list if file in os.listdir(self.path_to_folder) ]
             self.lines_parsed = 0
-
             self.last_timestamp = datetime.datetime.fromtimestamp(0)
-
 
             for file in files_to_parse:
                 file_path = os.path.join( self.path_to_folder, file)
-                self.parse_events( self.get_events_from_xml(file_path ) )
+                self.parseFile(file_path)
 
             # Parse open workunits
-
-            for wl in self.workunits:
+            
+            wlist = set(list(self.workunits))
+            
+            for wl in wlist:
                 self.last_timestamp = datetime.datetime.fromtimestamp(0)
                 folder_path = os.path.join(self.path_to_workunit_folder)
                 folders = os.walk(folder_path).next()[1]
                 # print folders
-                folder = [f for f in folders if f.startswith(wl)]
+                folder = [f for f in folders if f.startswith(wl + ' ')]
                 if len(folder) > 0:
-                    file = os.path.join(self.path_to_workunit_folder, folder[0], 'Audit', 'AuditLog.xml')
-                    if os.path.isfile(file):
-                        self.parse_events( self.get_events_from_xml(file) )
+                    file_path = os.path.join(self.path_to_workunit_folder, folder[0], 'Audit', 'AuditLog.xml')
+                    self.parseFile(file_path)
+             
 
-            parse_running = False
+            # check which workunits are not active and remove from parsing queue
+            for wl in wlist:
+                if wl in self.workunit_finished:
+                    print 'finished reading workunit', wl
+                    self.workunit_finished.remove(wl)
+                    self.workunits.remove(wl)
 
-        print self.lines_parsed
+            self.workunit_finished = set()
+
+        self.parse_running = False
 
     class AuditThread(Thread):
         def __init__(self, scope):
@@ -367,11 +471,12 @@ class Momentum(module.Module):
             self.stopped = self.scope.stop_flag
 
         def run(self):
-            while not self.stopped.wait(5):
-                self.scope.readAudit()
+            self.scope.parse_running = False
+            while not self.stopped.wait(0.1):
+                if not self.scope.parse_running:
+                    self.scope.readAudit()
 
-    parse_running = False;
-
+   
 
     def getStatusAPI(self):
 
@@ -433,10 +538,15 @@ class Momentum(module.Module):
 
 
     def start(self):
-        super(Momentum, self).__init__()
-        self.stop_flag = Event()
-        self.thread = self.AuditThread(self)
-        self.thread.start()
+        if self.thread is None:
+            self.is_running = True
+#            super(Momentum, self).__init__()
+            self.stop_flag = Event()
+            self.thread = self.AuditThread(self)
+            self.thread.start()
+            print 'Started'
+            
 
     def stop(self):
         self.thread.stop()
+        self.thread = None
