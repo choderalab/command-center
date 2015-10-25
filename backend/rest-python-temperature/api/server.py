@@ -58,7 +58,7 @@ def readTemperatures():
     if (not parse_running):
         parse_running = True
         
-        url="http://zrbnetbotz5-1745.mskcc.org/pages/status.html?encid=nbAvocetEnc_3"
+        url="http://zrbnetbotz5-1745.mskcc.org/pages/status.html?encid=nbAvocetEnc_4&varid=nbAvocetEnc_4_4TO20MA2&backencid=nbAvocetEnc_4"
         req = urllib2.Request(url)
 
         try:
