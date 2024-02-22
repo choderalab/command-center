@@ -24,7 +24,7 @@
     "octonode" : "0.6.2",
     "socket.io" : "0.9.16",
     "xpath" : "0.0.6",
-    "xmldom" : "0.1.19",
+    "xmldom" : "0.6.0",
     "moment" : "2.6.0"
   }
 }
