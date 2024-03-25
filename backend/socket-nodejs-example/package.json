@@ -19,7 +19,7 @@
     "url" : "http://github.com/YOUR_LOGIN/monitor/issues"
   },
   "dependencies" : {
-    "express" : "4.0.0",
+    "express" : "4.19.2",
     "github" : "0.1.16",
     "octonode" : "0.6.2",
     "socket.io" : "0.9.16",
